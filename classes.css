@@ -1,0 +1,67 @@
+.scrollBox {
+  height: 200px;
+  overflow-y: scroll;
+  background-color: #ccc;
+  width: 600px;
+}
+
+table.cal td {
+  border: 1px solid black;
+}
+
+td.day {
+  width: 200px;
+  height: 410px;
+  vertical-align: top;
+  font-size: 12px;
+  position: relative;
+
+}
+.timeSlot {
+  width: 200px;
+  background-color: #fcfcfc;
+  position: absolute;
+  border: 1px solid black;
+
+  padding: 2px;
+}
+/* colors */
+
+.red {background-color: #CD6B97;}
+.red2 {background-color:#FC575E}
+.blue {background-color:#2980B9}
+.blue2 {background-color:#83D6DE}
+.green {background-color:#27AE60}
+.green2 {background-color:#7CEECE}
+.purple {background-color:#953163}
+.purple2 {background-color:#897FBA}
+.yellow {background-color:#EEE657}
+.yellow2 {background-color:#E7DF86}
+.orange {background-color: #E67E22}
+.orange2 {background-color:#FF7055}
+.tan {background-color:#F3D89F}
+.tan2 {background-color: #EBBD63}
+
+
+/* 15 minutes = 10px, 1 hour = 40px */
+.time845AM1000AM  {top: 0px; height: 50px;}
+.time845AM1100AM  {top: 0px; height: 90px;}
+.time1000AM1200PM {top: 50px; height: 40px;}
+.time1015AM1130AM {top: 60px; height: 50px;}
+.time1100AM1159AM {top: 90px; height: 40px;}
+.time1145AM100PM  {top: 120px; height: 50px;}
+.time1200PM200PM {top: 130px; height: 80px;}
+
+.time115PM230PM {top: 180px; height: 50px;}
+.time115PM400PM {top: 180px; height: 110px;}
+.time200PM400PM {top: 210px; height: 80px;}
+.time245PM400PM {top: 240px; height: 50px;}
+
+.time300PM500PM {top: 250px; height: 80px;}
+.time330PM500PM {top: 270px; height: 60px;}
+
+.time415PM530PM {top: 300px; height: 50px;}
+.time415PM600PM {top: 300px; height: 70px;}
+.time415PM615PM {top: 300px; height: 80px;}
+.time415PM700PM {top: 300px; height: 70px;}
+.time415PM800PM {top: 300px; height: 110px;}
