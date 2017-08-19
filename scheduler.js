@@ -10,6 +10,7 @@ $(function() {
   const courseCredits = "Credits"
   const courseTime = "Class Time";
   const courseDay = "Class Day";
+  const courseSection = "Section";
   const courseReviewDay = "Review Day";
   const courseReviewRoom = "Review Room";
   const courseReviewTime = "Review Time";
@@ -60,6 +61,7 @@ $(function() {
   const $body = $("body");
   const jsCreditCounter = $body.find("#js-credits");
   const jsCalendar = $body.find("#js-calendar");
+  const $showSectionsCheckbox = $body.find("#js-show-sections");
 
   // add classes to the page.
   loadClasses();
@@ -80,10 +82,11 @@ $(function() {
   }
 
   function courseTemplate(course) {
-    return `<dt>
+    const section = !(course[courseSection] === null || course[courseSection] === "B")
+    return `<dt class="${section ? "hide" : ""} ${section ? "js-section" : "" }">
               <label>
               <input type="checkbox" id='${course[courseID]}'/>
-                ${course[courseNO]} [${course[courseTerm]}] ${course[courseTitle]}
+                ${course[courseNO]} ${section ? course[courseSection] : ""} [${course[courseTerm]}] ${course[courseTitle]}
               </label>
             </dt>`;
   }
@@ -131,6 +134,14 @@ $(function() {
     }
     setCredits()
     $body.trigger(changed, [added, course])
+  })
+
+  $showSectionsCheckbox.change(function(){
+    if (this.checked === true) {
+      $("dt").removeClass("hide")
+    } else {
+      $("dt.js-section").addClass("hide")
+    }
   })
 
   // 'this' is an course key

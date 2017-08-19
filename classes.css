@@ -1,9 +1,15 @@
+.hide {
+  display: none;
+}
 .scrollBox {
   height: 250px;
   overflow-y: scroll;
   background-color: #ccc;
   width: 100%;
   padding: 6px;
+}
+.section-label {
+  display: inline;
 }
 .row {
   margin-top: 10px;
@@ -33,18 +39,18 @@ td.day {
 
 .red {background-color: #CD6B97;}
 .red2 {background-color:#FC575E}
-.blue {background-color:#7980B9}
+.blue {background-color:#81CFE0}
 .blue2 {background-color:#83D6DE}
-.green {background-color:#27AE60}
+.green {background-color:#87D37C}
 .green2 {background-color:#7CEECE}
-.purple {background-color:#953163}
-.purple2 {background-color:#897FBA}
+.purple {background-color:#DCC6E0}
+.purple2 {background-color:#BE90D4}
 .yellow {background-color:#EEE657}
 .yellow2 {background-color:#E7DF86}
 .orange {background-color: #E67E22}
 .orange2 {background-color:#FF7055}
 .tan {background-color:#F3D89F}
-.tan2 {background-color: #EBBD63}
+.tan2 {background-color: #FDE3A7}
 
 
 /* 15 minutes = 10px, 1 hour = 40px */
