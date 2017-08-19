@@ -56,7 +56,7 @@ $(function() {
 
   const changed = "changed";
 
-  const $courseList = $("#js-courses ul");
+  const $courseList = $("#js-courses dl");
   const $body = $("body");
   const jsCreditCounter = $body.find("#js-credits");
   const jsCalendar = $body.find("#js-calendar");
@@ -66,8 +66,7 @@ $(function() {
   loadCalendars();
 
   // bind after course loaded
-  const $classCheckboxes = $courseList.find('li input');
-
+  const $classCheckboxes = $courseList.find('dt input');
 
   function loadClasses() {
     classes.forEach(function(course) {
@@ -81,12 +80,12 @@ $(function() {
   }
 
   function courseTemplate(course) {
-    return `<li>
+    return `<dt>
               <label>
               <input type="checkbox" id='${course[courseID]}'/>
-                ${course[courseID]} - ${course[courseTitle]}
+                ${course[courseNO]} [${course[courseTerm]}] ${course[courseTitle]}
               </label>
-            </li>`;
+            </dt>`;
   }
   function courseListTemplate(course) {
     return `<li class="${course[courseID]}">
@@ -160,7 +159,6 @@ $(function() {
   function setCredits() {
     var credits = 0;
     myClasses.forEach(function(course){
-      console.log(course[courseCredits]);
       credits += parseInt(course[courseCredits]);
     })
 
@@ -175,7 +173,7 @@ $(function() {
     if (selector === undefined) { return }
 
     $body
-      .find("#js-courses .js-" + selector + " ol")
+      .find(".js-courses .js-" + selector + " ol")
       .append(courseListTemplate(course));
 
     const calSelectors = calMapping[term]
@@ -184,7 +182,7 @@ $(function() {
 
     const color = colors[Math.floor(Math.random() * colors.length)];
     days.forEach(function(day) {
-      console.log(calSelectors);
+
       calSelectors.forEach( function(calSelector){
         $body
           .find("#js-calendar .js-" + calSelector + " ." + day)

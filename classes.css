@@ -1,8 +1,12 @@
 .scrollBox {
-  height: 200px;
+  height: 250px;
   overflow-y: scroll;
   background-color: #ccc;
-  width: 600px;
+  width: 100%;
+  padding: 6px;
+}
+.row {
+  margin-top: 10px;
 }
 
 table.cal td {
@@ -29,7 +33,7 @@ td.day {
 
 .red {background-color: #CD6B97;}
 .red2 {background-color:#FC575E}
-.blue {background-color:#2980B9}
+.blue {background-color:#7980B9}
 .blue2 {background-color:#83D6DE}
 .green {background-color:#27AE60}
 .green2 {background-color:#7CEECE}

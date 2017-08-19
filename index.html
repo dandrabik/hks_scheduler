@@ -2,53 +2,80 @@
   <head>
     <script type="text/javascript" src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
     <script type="text/javascript" src='classes.js'></script>
+    <!-- Google Fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+
+<!-- CSS Reset -->
+<link rel="stylesheet" href="https://cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
+
+<!-- Milligram CSS minified -->
+<link rel="stylesheet" href="https://cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css">
+
     <link rel="stylesheet" type="text/css" href="classes.css">
   </head>
   <body>
-  <div id="js-courses" class="scrollBox">
-    <ul></ul>
+  <div class ="container">
+
+  <!-- top row -->
+    <div class="row">
+      <div class= "column">
+          <h4> Select Courses</h4>
+          <div id="js-courses" class="scrollBox"><dl></dl></div>
+      </div>
+
+      <div class="column">
+        <div>
+          <h2>
+              <span id="js-credits">0</span>
+              Credits
+          </h2>
+
+        </div>
+      </div>
+    </div>
+    <!-- fall/spring list roww -->
+    <div class="row js-courses">
+      <div class= "column">
+        <div class="js-Fall">
+          <h2>Fall</h2>
+          <ol></ol>
+        </div>
+        <div class="js-FallOne">
+          <h4>Fall 1</h4>
+          <ol></ol>
+        </div>
+        <div class="js-FallTwo">
+          <h4>Fall 2</h4>
+          <ol></ol>
+        </div>
+      </div>
+      <div class= "column">
+        <div class="js-Spring">
+          <h2>Spring</h2>
+          <ol></ol>
+        </div>
+        <div class="js-SpringOne">
+          <h4>Spring 1</h4>
+          <ol></ol>
+        </div>
+        <div class="js-SpringTwo">
+          <h4>Spring 2</h4>
+          <ol></ol>
+        </div>
+      </div>
+    </div>
+    <!-- jan term row -->
+    <div class="row js-courses">
+      <div class= "column">
+        <div class="js-January">
+          <h2>January</h2>
+          <ol></ol>
+        </div>
+      </div>
+     </div>
+    <!-- weeks -->
+    <div id="js-calendar"></div>
   </div>
-
-  <div>
-    <h2>Credits</h2>
-    <div id="js-credits">0</div>
-  </div>
-  <!-- course lists -->
-  <div id="js-courses">
-    <div class="js-Fall">
-      <h2>Fall</h2>
-      <ol></ol>
-    </div>
-    <div class="js-FallOne">
-      <h4>Fall 1</h4>
-      <ol></ol>
-    </div>
-      <div class="js-FallTwo">
-      <h4>Fall 2</h4>
-      <ol></ol>
-    </div>
-    <div class="js-January">
-      <h2>January</h2>
-      <ol></ol>
-    </div>
-    <div class="js-Spring">
-      <h2>Spring</h2>
-      <ol></ol>
-    </div>
-    <div class="js-SpringOne">
-      <h4>Spring 1</h4>
-      <ol></ol>
-    </div>
-      <div class="js-SpringTwo">
-      <h4>Spring 2</h4>
-      <ol></ol>
-    </div>
-  </div>
-
-  <!-- weeks -->
-  <div id="js-calendar"></div>
-
-
   </body>
   <script type="text/javascript" src='scheduler.js'></script>
 </html>
