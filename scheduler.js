@@ -97,10 +97,13 @@ $(function() {
             </li>`;
   }
 
-  function scheduleTemplate(course, color) {
-    return `<div class="${color} ${course[courseID]} timeSlot time${course[courseTime].replace(/(:|-|\s)/g, "")}">
+  function scheduleTemplate(course, color, review) {
+    return `<div class="${color} ${course[courseID]} timeSlot time${course[review ? courseReviewTime : courseTime].replace(/(:|-|\s)/g, "")}">
               <div>${course[courseTime]}</div>
-              <div>${course[courseTitle]}</div>
+              <div>
+                ${review ? 'Review - ' : ""}
+                ${course[courseTitle]}
+              </div>
             </div>`;
   }
   function weekTemplate(selector, label) {
@@ -174,30 +177,43 @@ $(function() {
     jsCreditCounter.html(credits);
   }
 
-  function addCourse(course) {
-    myClasses.splice(0,0,course);
+  function addToList(course) {
     const term = course[courseTerm];
-    const days = course[courseDay] ? course[courseDay].split("/") : []
-    const selector = termMapping[term]
+    const selector = termMapping[term];
 
     if (selector === undefined) { return }
 
     $body
       .find(".js-courses .js-" + selector + " ol")
       .append(courseListTemplate(course));
+  }
 
-    const calSelectors = calMapping[term]
+  function addToCalendar(course, color, review) {
+    const term = course[courseTerm];
+    const calSelectors = calMapping[term];
+
+    const dayData = review ? courseReviewDay : courseDay;
+    const days = course[dayData] ? course[dayData].split("/") : []
 
     if (calSelectors === undefined) { return }
 
-    const color = colors[Math.floor(Math.random() * colors.length)];
     days.forEach(function(day) {
 
       calSelectors.forEach( function(calSelector){
         $body
           .find("#js-calendar .js-" + calSelector + " ." + day)
-          .append(scheduleTemplate(course, color))
+          .append(scheduleTemplate(course, color, review))
       });
     });
+  }
+
+  function addCourse(course) {
+    myClasses.splice(0,0,course);
+
+    addToList(course);
+
+    const color = colors[Math.floor(Math.random() * colors.length)];
+    addToCalendar(course, color, false);
+    addToCalendar(course, color, true);
   }
 })
