@@ -103,7 +103,7 @@ $(function() {
 
   function scheduleTemplate(course, color, review) {
     return `<div class="${color} ${course[courseID]} timeSlot time${course[review ? courseReviewTime : courseTime].replace(/(:|-|\s)/g, "")}">
-              <div>${course[courseTime]}</div>
+              <div>${review ? course[courseReviewTime] : course[courseTime]}</div>
               <div>
                 ${review ? 'Review - ' : ""}
                 ${course[courseTitle]}

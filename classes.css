@@ -28,7 +28,7 @@ table.cal td {
 
 td.day {
   width: 200px;
-  height: 410px;
+  height: 455px;
   vertical-align: top;
   font-size: 12px;
   position: relative;
@@ -64,22 +64,33 @@ td.day {
 /* 15 minutes = 10px, 1 hour = 40px */
 .time845AM1000AM  {top: 0px; height: 50px;}
 .time845AM1100AM  {top: 0px; height: 90px;}
+.time900AM1200PM  {top: 10px; height: 120px;}
+.time945AM1115AM  {top: 40px; height: 60px;}
 .time1000AM1200PM {top: 50px; height: 40px;}
+.time1000AM1129AM {top: 50px; height: 40px;}
 .time1015AM1130AM {top: 60px; height: 50px;}
 .time1100AM1159AM {top: 90px; height: 40px;}
 .time1145AM100PM  {top: 120px; height: 50px;}
 .time1200PM200PM {top: 130px; height: 80px;}
 
+.time100PM230PM {top: 170px; height: 60px;}
 .time115PM230PM {top: 180px; height: 50px;}
 .time115PM400PM {top: 180px; height: 110px;}
+.time115PM415PM {top: 180px; height: 120px;}
 .time200PM400PM {top: 210px; height: 80px;}
+.time200PM330PM {top: 210px; height: 60px;}
+.time200PM500PM {top: 210px; height: 80px;}
 .time245PM400PM {top: 240px; height: 50px;}
 
 .time300PM500PM {top: 250px; height: 80px;}
 .time330PM500PM {top: 270px; height: 60px;}
 
 .time415PM530PM {top: 300px; height: 50px;}
+.time415PM545PM {top: 300px; height: 60px;}
 .time415PM600PM {top: 300px; height: 70px;}
 .time415PM615PM {top: 300px; height: 80px;}
+.time415PM630PM {top: 300px; height: 90px;}
 .time415PM700PM {top: 300px; height: 70px;}
 .time415PM800PM {top: 300px; height: 110px;}
+.time600PM659PM {top: 370px; height: 40px;}
+.time615PM800PM {top: 380px; height: 70px;}
