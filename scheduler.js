@@ -86,7 +86,11 @@ $(function() {
     return `<dt class="${section ? "hide" : ""} ${section ? "js-section" : "" }">
               <label>
               <input type="checkbox" id='${course[courseID]}'/>
-                ${course[courseNO]} ${section ? course[courseSection] : ""} [${course[courseTerm]}] ${course[courseTitle]}
+                ${course[courseNO]}
+                ${section ? course[courseSection] : ""}
+                [${course[courseTerm]}]
+                ${course[courseTitle]} -
+                ${course[courseFaculty]}
               </label>
             </dt>`;
   }
