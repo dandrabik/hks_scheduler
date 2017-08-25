@@ -29,7 +29,9 @@ $(function() {
   const quantCourseIDs = data.quantClassIDs;
   const mldCourseIDs = data.mldClassIDs;
   const politicalCourseIDs = data.politicalClassIDs;
-  const successClass = 'green'
+  const successClass = 'green';
+  const storedCourses = "hksClassChoices";
+
 
   const termMapping = {
     [fallTerm]: fallTerm,
@@ -58,8 +60,6 @@ $(function() {
     [springTwo, springTwoTerm]
   ]
   const colors = ["red", "red2", "blue", "blue2", "green", "green2", "purple", "purple2", "yellow", "yellow2", "orange", "orange2", "tan", "tan2"]
-
-  const changed = "changed";
 
   const $courseList = $("#js-courses dl");
   const $body = $("body");
@@ -154,10 +154,21 @@ $(function() {
     added ? addCourse(course) : removeCourse(course)
 
     setCredits();
+    updateLocalStorage();
     setRequirements(quantCourseIDs, quantList);
     setRequirements(mldCourseIDs, mldList);
     setRequirements(politicalCourseIDs, politicsList);
-  })
+  });
+
+  // load saved courses, after callbacks are in place
+  if (localStorage.getItem(storedCourses)) {
+    const storedCourseIDs = JSON.parse(localStorage.getItem(storedCourses));
+    storedCourseIDs.forEach(function(storedCourseID){
+      const $checkbox = $body.find("#" + storedCourseID);
+
+      $checkbox.prop('checked', true).change();
+    })
+  }
 
   // make 'remove' button just uncheck the box in the list
   $(document).on('click', "a.js-remove-link",function(){
@@ -216,6 +227,15 @@ $(function() {
 
     const $label = target.parent().find(".js-req-header");
     credits >= 4 ? $label.addClass(successClass) : $label.removeClass(successClass)
+  }
+
+  function updateLocalStorage() {
+    localStorage.setItem(
+      storedCourses,
+      JSON.stringify(
+        myClasses.map(function(course) { return course[courseID]})
+      )
+    )
   }
 
   function addToList(course) {
