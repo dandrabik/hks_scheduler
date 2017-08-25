@@ -561,7 +561,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "API-500M-Spring 2-B",
+      "Course ID": "API-500M-Spring-2-B",
       "Course No": "API-500M",
       "Title": "Spring Policy Exercise",
       "Section": "B",
@@ -575,7 +575,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "API-500M-Spring 2-D",
+      "Course ID": "API-500M-Spring-2-D",
       "Course No": "API-500M",
       "Title": "Spring Policy Exercise",
       "Section": "D",
@@ -589,7 +589,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "API-500M-Spring 2-C",
+      "Course ID": "API-500M-Spring-2-C",
       "Course No": "API-500M",
       "Title": "Spring Policy Exercise",
       "Section": "C",
@@ -603,7 +603,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "API-500M-Spring 2-A",
+      "Course ID": "API-500M-Spring-2-A",
       "Course No": "API-500M",
       "Title": "Spring Policy Exercise",
       "Section": "A",
@@ -687,7 +687,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "BGP-235M-Fall 2-",
+      "Course ID": "BGP-235M-Fall-2-",
       "Course No": "BGP-235M",
       "Title": "Private Capital for Public Purpose: Impact Investing and Its Siblings",
       "Section": null,
@@ -995,7 +995,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DEV-320M-Fall 2-",
+      "Course ID": "DEV-320M-Fall-2-",
       "Course No": "DEV-320M",
       "Title": "Scaling Up for Development Impact",
       "Section": null,
@@ -1149,7 +1149,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-117M-Spring 2-",
+      "Course ID": "DPI-117M-Spring-2-",
       "Course No": "DPI-117M",
       "Title": "The Evolution of the 21st Century American Presidency: Bush, Obama, and Trump",
       "Section": null,
@@ -1387,7 +1387,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-312M-Fall 1-",
+      "Course ID": "DPI-312M-Fall-1-",
       "Course No": "DPI-312M",
       "Title": "Sparking Social Change: Analytic Frameworks to Guide Social Innovators",
       "Section": null,
@@ -1485,7 +1485,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-345M-Spring 1-",
+      "Course ID": "DPI-345M-Spring-1-",
       "Course No": "DPI-345M",
       "Title": "Green Politics and Public Policy in a Global Age",
       "Section": null,
@@ -1555,7 +1555,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-401M-Fall 2-",
+      "Course ID": "DPI-401M-Fall-2-",
       "Course No": "DPI-401M",
       "Title": "Institutions and Development",
       "Section": null,
@@ -1807,7 +1807,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-670M-Spring 1-",
+      "Course ID": "DPI-670M-Spring-1-",
       "Course No": "DPI-670M",
       "Title": "Preventing Digital Disaster: Why Digital Implementations So Often Go Badly",
       "Section": null,
@@ -1821,7 +1821,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-671M-Spring 2-",
+      "Course ID": "DPI-671M-Spring-2-",
       "Course No": "DPI-671M",
       "Title": "Disrupting Bureaucracy: Understanding Recent Efforts in Digital Government",
       "Section": null,
@@ -1835,7 +1835,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-674M-Spring 1-",
+      "Course ID": "DPI-674M-Spring-1-",
       "Course No": "DPI-674M",
       "Title": "The Internet and Political Campaigns",
       "Section": null,
@@ -1849,7 +1849,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-675M-Spring 2-",
+      "Course ID": "DPI-675M-Spring-2-",
       "Course No": "DPI-675M",
       "Title": "Media and Journalism in the Digital Age",
       "Section": null,
@@ -1863,7 +1863,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-676M-Spring 2-",
+      "Course ID": "DPI-676M-Spring-2-",
       "Course No": "DPI-676M",
       "Title": "Designing Government",
       "Section": null,
@@ -1961,7 +1961,7 @@ var data = {
       "Review Time": "6:15 PM-8:00 PM"
     },
     {
-      "Course ID": "DPI-802M-Spring 2-E",
+      "Course ID": "DPI-802M-Spring-2-E",
       "Course No": "DPI-802M",
       "Title": "The Arts of Communication",
       "Section": "E",
@@ -1975,7 +1975,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-802M-Spring 2-D",
+      "Course ID": "DPI-802M-Spring-2-D",
       "Course No": "DPI-802M",
       "Title": "The Arts of Communication",
       "Section": "D",
@@ -1989,7 +1989,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-802M-Spring 1-C",
+      "Course ID": "DPI-802M-Spring-1-C",
       "Course No": "DPI-802M",
       "Title": "The Arts of Communication",
       "Section": "C",
@@ -2017,7 +2017,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-802M-Spring 1-B",
+      "Course ID": "DPI-802M-Spring-1-B",
       "Course No": "DPI-802M",
       "Title": "The Arts of Communication",
       "Section": "B",
@@ -2031,7 +2031,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-810M-Spring 1-C",
+      "Course ID": "DPI-810M-Spring-1-C",
       "Course No": "DPI-810M",
       "Title": "Introduction to Writing for Policy and Politics",
       "Section": "C",
@@ -2045,7 +2045,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-810M-Fall 2-B",
+      "Course ID": "DPI-810M-Fall-2-B",
       "Course No": "DPI-810M",
       "Title": "Introduction to Writing for Policy and Politics",
       "Section": "B",
@@ -2059,7 +2059,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-810M-Fall 1-A",
+      "Course ID": "DPI-810M-Fall-1-A",
       "Course No": "DPI-810M",
       "Title": "Introduction to Writing for Policy and Politics",
       "Section": "A",
@@ -2073,7 +2073,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-810M-Spring 2-D",
+      "Course ID": "DPI-810M-Spring-2-D",
       "Course No": "DPI-810M",
       "Title": "Introduction to Writing for Policy and Politics",
       "Section": "D",
@@ -2087,7 +2087,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-811M-Spring 2-B",
+      "Course ID": "DPI-811M-Spring-2-B",
       "Course No": "DPI-811M",
       "Title": "Advanced Writing for Policy and Politics",
       "Section": "B",
@@ -2101,7 +2101,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-811M-Fall 2-A",
+      "Course ID": "DPI-811M-Fall-2-A",
       "Course No": "DPI-811M",
       "Title": "Advanced Writing for Policy and Politics",
       "Section": "A",
@@ -2129,7 +2129,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-820M-Fall 2-B",
+      "Course ID": "DPI-820M-Fall-2-B",
       "Course No": "DPI-820M",
       "Title": "Policy Memo Writing for Decision Makers",
       "Section": "B",
@@ -2143,7 +2143,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-820M-Fall 1-A",
+      "Course ID": "DPI-820M-Fall-1-A",
       "Course No": "DPI-820M",
       "Title": "Policy Memo Writing for Decision Makers",
       "Section": "A",
@@ -2157,7 +2157,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-820M-Spring 2-C",
+      "Course ID": "DPI-820M-Spring-2-C",
       "Course No": "DPI-820M",
       "Title": "Policy Memo Writing for Decision Makers",
       "Section": "C",
@@ -2171,7 +2171,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-821M-Spring 1-",
+      "Course ID": "DPI-821M-Spring-1-",
       "Course No": "DPI-821M",
       "Title": "Long-Form Policy Writing for Decision Makers",
       "Section": null,
@@ -2185,7 +2185,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-825M-Fall 2-",
+      "Course ID": "DPI-825M-Fall-2-",
       "Course No": "DPI-825M",
       "Title": "Policy Presentations for Decision Makers",
       "Section": null,
@@ -2227,7 +2227,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-831M-Fall 2-",
+      "Course ID": "DPI-831M-Fall-2-",
       "Course No": "DPI-831M",
       "Title": "Op-Ed Writing",
       "Section": null,
@@ -2241,7 +2241,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-835M-Spring 2-B",
+      "Course ID": "DPI-835M-Spring-2-B",
       "Course No": "DPI-835M",
       "Title": "Speechwriting",
       "Section": "B",
@@ -2255,7 +2255,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-835M-Fall 1-A",
+      "Course ID": "DPI-835M-Fall-1-A",
       "Course No": "DPI-835M",
       "Title": "Speechwriting",
       "Section": "A",
@@ -2269,7 +2269,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-840M-Spring 2-",
+      "Course ID": "DPI-840M-Spring-2-",
       "Course No": "DPI-840M",
       "Title": "Analytical Writing for Policy Journals",
       "Section": null,
@@ -2325,7 +2325,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "IGA-107M-Fall 1-",
+      "Course ID": "IGA-107M-Fall-1-",
       "Course No": "IGA-107M",
       "Title": "Global Justice",
       "Section": null,
@@ -2395,7 +2395,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "IGA-145M-Fall 2-",
+      "Course ID": "IGA-145M-Fall-2-",
       "Course No": "IGA-145M",
       "Title": "Human Security: People-Centered Global Policy",
       "Section": null,
@@ -2423,7 +2423,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "IGA-165M-Spring 1-",
+      "Course ID": "IGA-165M-Spring-1-",
       "Course No": "IGA-165M",
       "Title": "Corporate Responsibility and New Governance Models",
       "Section": null,
@@ -2437,7 +2437,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "IGA-170M-Spring 2-",
+      "Course ID": "IGA-170M-Spring-2-",
       "Course No": "IGA-170M",
       "Title": "Realism in International Relations",
       "Section": null,
@@ -2493,7 +2493,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "IGA-219M-Fall 2-",
+      "Course ID": "IGA-219M-Fall-2-",
       "Course No": "IGA-219M",
       "Title": "What's Wrong with U.S. Foreign Policy?",
       "Section": null,
@@ -2521,7 +2521,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "IGA-224M-Spring 2-",
+      "Course ID": "IGA-224M-Spring-2-",
       "Course No": "IGA-224M",
       "Title": "Decision Making in Recent Crises",
       "Section": null,
@@ -2591,7 +2591,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "IGA-237M-Fall 2-",
+      "Course ID": "IGA-237M-Fall-2-",
       "Course No": "IGA-237M",
       "Title": "Future Issues in Cyber-Policy",
       "Section": null,
@@ -2633,7 +2633,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "IGA-305M-Fall 1-",
+      "Course ID": "IGA-305M-Fall-1-",
       "Course No": "IGA-305M",
       "Title": "The Human Rights of Children and Youth as Citizens, Migrants and Refugees",
       "Section": null,
@@ -2647,7 +2647,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "IGA-342M-Fall 2-",
+      "Course ID": "IGA-342M-Fall-2-",
       "Course No": "IGA-342M",
       "Title": "Human Rights Dilemmas in Child Protection",
       "Section": null,
@@ -2689,7 +2689,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "IGA-351M-Spring 2-",
+      "Course ID": "IGA-351M-Spring-2-",
       "Course No": "IGA-351M",
       "Title": "Human Trafficking and Modern Slavery",
       "Section": null,
@@ -2787,7 +2787,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "IGA-412M-Fall 1-",
+      "Course ID": "IGA-412M-Fall-1-",
       "Course No": "IGA-412M",
       "Title": "The Geopolitics of Energy",
       "Section": null,
@@ -2829,7 +2829,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "IGA-451M-Spring 1-",
+      "Course ID": "IGA-451M-Spring-1-",
       "Course No": "IGA-451M",
       "Title": "Controversies in Climate, Energy, and the Media: Improving Public Communication",
       "Section": null,
@@ -2843,7 +2843,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "IGA-457M-Spring 2-",
+      "Course ID": "IGA-457M-Spring-2-",
       "Course No": "IGA-457M",
       "Title": "International Climate Change Policy",
       "Section": null,
@@ -2997,7 +2997,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "MLD-102M-Fall 1-B",
+      "Course ID": "MLD-102M-Fall-1-B",
       "Course No": "MLD-102M",
       "Title": "Getting Things Done: Management in a Development Context",
       "Section": "B",
@@ -3011,7 +3011,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "MLD-102M-Fall 1-A",
+      "Course ID": "MLD-102M-Fall-1-A",
       "Course No": "MLD-102M",
       "Title": "Getting Things Done: Management in a Development Context",
       "Section": "A",
@@ -3095,7 +3095,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "MLD-220M-Fall 1-C",
+      "Course ID": "MLD-220M-Fall-1-C",
       "Course No": "MLD-220M",
       "Title": "Fundamentals of Negotiation Analysis",
       "Section": "C",
@@ -3109,7 +3109,7 @@ var data = {
       "Review Time": "4:00 PM-8:00 PM"
     },
     {
-      "Course ID": "MLD-220M-Fall 1-D",
+      "Course ID": "MLD-220M-Fall-1-D",
       "Course No": "MLD-220M",
       "Title": "Fundamentals of Negotiation Analysis",
       "Section": "D",
@@ -3123,7 +3123,7 @@ var data = {
       "Review Time": "4:00 PM-8:00 PM"
     },
     {
-      "Course ID": "MLD-220M-Fall 1-B",
+      "Course ID": "MLD-220M-Fall-1-B",
       "Course No": "MLD-220M",
       "Title": "Fundamentals of Negotiation Analysis",
       "Section": "B",
@@ -3137,7 +3137,7 @@ var data = {
       "Review Time": "4:00 PM-8:00 PM"
     },
     {
-      "Course ID": "MLD-220M-Fall 1-A",
+      "Course ID": "MLD-220M-Fall-1-A",
       "Course No": "MLD-220M",
       "Title": "Fundamentals of Negotiation Analysis",
       "Section": "A",
@@ -3151,7 +3151,7 @@ var data = {
       "Review Time": "4:15 PM-8:00 PM"
     },
     {
-      "Course ID": "MLD-222M-Fall 1-",
+      "Course ID": "MLD-222M-Fall-1-",
       "Course No": "MLD-222M",
       "Title": "Negotiation Analysis",
       "Section": null,
@@ -3165,7 +3165,7 @@ var data = {
       "Review Time": "4:15 PM-6:30 PM"
     },
     {
-      "Course ID": "MLD-223M-Fall 2-",
+      "Course ID": "MLD-223M-Fall-2-",
       "Course No": "MLD-223M",
       "Title": "Negotiating Across Differences",
       "Section": null,
@@ -3277,7 +3277,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "MLD-320M-Spring 1-",
+      "Course ID": "MLD-320M-Spring-1-",
       "Course No": "MLD-320M",
       "Title": "The Art of Leading in a Diverse World:  Skills, Insights, and Best Practices",
       "Section": null,
@@ -3375,7 +3375,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "MLD-355M-Fall 1-",
+      "Course ID": "MLD-355M-Fall-1-",
       "Course No": "MLD-355M",
       "Title": "Public Narrative: Self, Us, Now",
       "Section": null,
@@ -3389,7 +3389,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "MLD-356M-Fall 2-",
+      "Course ID": "MLD-356M-Fall-2-",
       "Course No": "MLD-356M",
       "Title": "Public Narrative: Loss, Difference, Power, and Change",
       "Section": null,
@@ -3445,7 +3445,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "MLD-401M-Fall 1-",
+      "Course ID": "MLD-401M-Fall-1-",
       "Course No": "MLD-401M",
       "Title": "Financial Management in Public and Nonprofit Organizations",
       "Section": null,
@@ -3473,7 +3473,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "MLD-411M-Fall 2-",
+      "Course ID": "MLD-411M-Fall-2-",
       "Course No": "MLD-411M",
       "Title": "Introduction to Budgeting and Financial Management",
       "Section": null,
@@ -3585,7 +3585,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "MLD-501M-Fall 2-A",
+      "Course ID": "MLD-501M-Fall-2-A",
       "Course No": "MLD-501M",
       "Title": "Conflict and Collaboration: Intra- and Inter-group Dynamics",
       "Section": "A",
@@ -3599,7 +3599,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "MLD-501M-Fall 2-D",
+      "Course ID": "MLD-501M-Fall-2-D",
       "Course No": "MLD-501M",
       "Title": "Conflict and Collaboration: Intra- and Inter-group Dynamics",
       "Section": "D",
@@ -3613,7 +3613,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "MLD-501M-Fall 2-C",
+      "Course ID": "MLD-501M-Fall-2-C",
       "Course No": "MLD-501M",
       "Title": "Conflict and Collaboration: Intra- and Inter-group Dynamics",
       "Section": "C",
@@ -3627,7 +3627,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "MLD-501M-Fall 2-B",
+      "Course ID": "MLD-501M-Fall-2-B",
       "Course No": "MLD-501M",
       "Title": "Conflict and Collaboration: Intra- and Inter-group Dynamics",
       "Section": "B",
@@ -3697,7 +3697,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "MLD-617M-Spring 2-",
+      "Course ID": "MLD-617M-Spring-2-",
       "Course No": "MLD-617M",
       "Title": "Effective Implementation: Learning from Effective Implementers",
       "Section": null,
@@ -3711,7 +3711,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "MLD-620M-Spring 2-",
+      "Course ID": "MLD-620M-Spring-2-",
       "Course No": "MLD-620M",
       "Title": "Urban Innovation:  Concepts and Practices",
       "Section": null,
@@ -3739,7 +3739,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "MLD-630M-Fall 2-",
+      "Course ID": "MLD-630M-Fall-2-",
       "Course No": "MLD-630M",
       "Title": "Government Turnarounds",
       "Section": null,
@@ -3753,7 +3753,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "MLD-635M-Spring 1-",
+      "Course ID": "MLD-635M-Spring-1-",
       "Course No": "MLD-635M",
       "Title": "Creating and Delivering Public Value: Performing and Innovating in Government",
       "Section": null,
@@ -3767,7 +3767,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "MLD-829M-Fall 2-",
+      "Course ID": "MLD-829M-Fall-2-",
       "Course No": "MLD-829M",
       "Title": "Fundamentals of Entrepreneurial Finance",
       "Section": null,
@@ -3809,7 +3809,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "MLD-836M-Fall 1-",
+      "Course ID": "MLD-836M-Fall-1-",
       "Course No": "MLD-836M",
       "Title": "Social Entrepreneurship/Social Enterprises 101:  How to Go from Start-Up to End Up",
       "Section": null,
@@ -3963,7 +3963,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "SUP-321M-Spring 2-",
+      "Course ID": "SUP-321M-Spring-2-",
       "Course No": "SUP-321M",
       "Title": "Designing Social Security Systems",
       "Section": null,
