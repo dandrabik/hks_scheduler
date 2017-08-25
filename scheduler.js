@@ -96,7 +96,9 @@ $(function() {
   }
   function courseListTemplate(course) {
     return `<li class="${course[courseID]}">
-              ${course[courseNO]} - ${course[courseTitle]} (${course[courseTime]})
+              ${course[courseNO]} -
+              ${course[courseTitle]}
+              (${course[courseDay]} ${course[courseTime]})
               (<a class="js-remove-link" data-course="${course[courseID]}">Remove</a>)
             </li>`;
   }
