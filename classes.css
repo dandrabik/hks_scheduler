@@ -4,12 +4,16 @@ body {
 .hide {
   display: none;
 }
+.js-remove-link:hover {
+  cursor: pointer;
+}
 .scrollBox {
-  height: 250px;
-  overflow-y: scroll;
-  background-color: #ccc;
+  height: 300px;
+  overflow-y: auto;
+  background-color: #e5e5e5;
   width: 100%;
   padding: 6px;
+  border: 1px solid #ccc;
 }
 .section-label {
   display: inline;
