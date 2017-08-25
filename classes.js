@@ -1,7 +1,7 @@
 var data = {
   "classes": [
     {
-      "Course ID": "API-101-B-Fall",
+      "Course ID": "API-101-Fall-B",
       "Course No": "API-101",
       "Title": "Markets and Market Failure",
       "Section": "B",
@@ -15,7 +15,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "API-101-C-Fall",
+      "Course ID": "API-101-Fall-C",
       "Course No": "API-101",
       "Title": "Markets and Market Failure",
       "Section": "C",
@@ -29,21 +29,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "API-101-D-Fall",
-      "Course No": "API-101",
-      "Title": "Markets and Market Failure",
-      "Section": "D",
-      "Credits": "4.00",
-      "Term": "Fall",
-      "Faculty": "Pinar Dogan",
-      "Class Day": "M/W",
-      "Class Time": "10:15 AM-11:30 AM",
-      "Review Day": null,
-      "Review Room": null,
-      "Review Time": null
-    },
-    {
-      "Course ID": "API-101-Z-Fall",
+      "Course ID": "API-101-Fall-Z",
       "Course No": "API-101",
       "Title": "Markets and Market Failure",
       "Section": "Z",
@@ -57,35 +43,21 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "API-102-A-Spring",
-      "Course No": "API-102",
-      "Title": "Economic Analysis of Public Policy",
-      "Section": "A",
+      "Course ID": "API-101-Fall-D",
+      "Course No": "API-101",
+      "Title": "Markets and Market Failure",
+      "Section": "D",
       "Credits": "4.00",
-      "Term": "Spring",
-      "Faculty": "Mark Shepard",
-      "Class Day": "T/Th",
+      "Term": "Fall",
+      "Faculty": "Pinar Dogan",
+      "Class Day": "M/W",
       "Class Time": "10:15 AM-11:30 AM",
       "Review Day": null,
       "Review Room": null,
       "Review Time": null
     },
     {
-      "Course ID": "API-102-B-Spring",
-      "Course No": "API-102",
-      "Title": "Economic Analysis of Public Policy",
-      "Section": "B",
-      "Credits": "4.00",
-      "Term": "Spring",
-      "Faculty": "Joseph Aldy",
-      "Class Day": "T/Th",
-      "Class Time": "10:15 AM-11:30 AM",
-      "Review Day": null,
-      "Review Room": null,
-      "Review Time": null
-    },
-    {
-      "Course ID": "API-102-I-Spring",
+      "Course ID": "API-102-Spring-I",
       "Course No": "API-102",
       "Title": "Economic Analysis of Public Policy",
       "Section": "I",
@@ -99,7 +71,35 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "API-102-Z-Spring",
+      "Course ID": "API-102-Spring-A",
+      "Course No": "API-102",
+      "Title": "Economic Analysis of Public Policy",
+      "Section": "A",
+      "Credits": "4.00",
+      "Term": "Spring",
+      "Faculty": "Mark Shepard",
+      "Class Day": "T/Th",
+      "Class Time": "10:15 AM-11:30 AM",
+      "Review Day": null,
+      "Review Room": null,
+      "Review Time": null
+    },
+    {
+      "Course ID": "API-102-Spring-B",
+      "Course No": "API-102",
+      "Title": "Economic Analysis of Public Policy",
+      "Section": "B",
+      "Credits": "4.00",
+      "Term": "Spring",
+      "Faculty": "Joseph Aldy",
+      "Class Day": "T/Th",
+      "Class Time": "10:15 AM-11:30 AM",
+      "Review Day": null,
+      "Review Room": null,
+      "Review Time": null
+    },
+    {
+      "Course ID": "API-102-Spring-Z",
       "Course No": "API-102",
       "Title": "Economic Analysis of Public Policy",
       "Section": "Z",
@@ -113,7 +113,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "API-109--Fall",
+      "Course ID": "API-109-Fall-",
       "Course No": "API-109",
       "Title": "Advanced Microeconomic Analysis I",
       "Section": null,
@@ -127,7 +127,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "API-110--Spring",
+      "Course ID": "API-110-Spring-",
       "Course No": "API-110",
       "Title": "Advanced Microeconomic  Analysis II",
       "Section": null,
@@ -141,7 +141,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "API-111--Fall",
+      "Course ID": "API-111-Fall-",
       "Course No": "API-111",
       "Title": "Microeconomic Theory I",
       "Section": null,
@@ -155,7 +155,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "API-112--Spring",
+      "Course ID": "API-112-Spring-",
       "Course No": "API-112",
       "Title": "Microeconomic Theory II",
       "Section": null,
@@ -169,21 +169,21 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "API-114--Fall",
+      "Course ID": "API-114-Fall-",
       "Course No": "API-114",
       "Title": "Econometric Methods for Applied Research I",
       "Section": null,
       "Credits": "4.00",
       "Term": "Fall",
-      "Faculty": "Steve Cicala",
-      "Class Day": null,
-      "Class Time": null,
+      "Faculty": null,
+      "Class Day": "T/Th",
+      "Class Time": "1:00 PM-2:30 PM",
       "Review Day": null,
       "Review Room": null,
       "Review Time": null
     },
     {
-      "Course ID": "API-115--Spring",
+      "Course ID": "API-115-Spring-",
       "Course No": "API-115",
       "Title": "Econometric Methods for Applied Research II",
       "Section": null,
@@ -197,7 +197,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "API-119--Spring",
+      "Course ID": "API-119-Spring-",
       "Course No": "API-119",
       "Title": "Advanced Macroeconomics for the Open Economy II",
       "Section": null,
@@ -211,7 +211,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "API-120--Fall",
+      "Course ID": "API-120-Fall-",
       "Course No": "API-120",
       "Title": "Advanced Macroeconomics for the Open Economy I",
       "Section": null,
@@ -225,7 +225,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "API-121--Fall",
+      "Course ID": "API-121-Fall-",
       "Course No": "API-121",
       "Title": "Macroeconomic Theory and Policy",
       "Section": null,
@@ -239,21 +239,21 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "API-126--Fall",
+      "Course ID": "API-126-Fall-",
       "Course No": "API-126",
       "Title": "American Economic Policy",
       "Section": null,
       "Credits": "4.00",
       "Term": "Fall",
       "Faculty": "Lawrence Summers, Jeffrey Liebman, Martin Feldstein",
-      "Class Day": null,
-      "Class Time": null,
+      "Class Day": "M/W/F",
+      "Class Time": "11:00 AM-11:59 AM",
       "Review Day": null,
       "Review Room": null,
       "Review Time": null
     },
     {
-      "Course ID": "API-135--Spring",
+      "Course ID": "API-135-Spring-",
       "Course No": "API-135",
       "Title": "Fundamentals of Environmental Economics and Policy",
       "Section": null,
@@ -267,7 +267,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "API-141--Fall",
+      "Course ID": "API-141-Fall-",
       "Course No": "API-141",
       "Title": "Finance",
       "Section": null,
@@ -281,7 +281,7 @@ var data = {
       "Review Time": "1:15 PM-2:30 PM"
     },
     {
-      "Course ID": "API-148--Fall",
+      "Course ID": "API-148-Fall-",
       "Course No": "API-148",
       "Title": "Advanced Risk Management and Infrastructure Finance",
       "Section": null,
@@ -295,7 +295,7 @@ var data = {
       "Review Time": "11:45 AM-1:00 PM"
     },
     {
-      "Course ID": "API-164--Spring",
+      "Course ID": "API-164-Spring-",
       "Course No": "API-164",
       "Title": "Energy Policy Analysis",
       "Section": null,
@@ -309,7 +309,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "API-166--Fall",
+      "Course ID": "API-166-Fall-",
       "Course No": "API-166",
       "Title": "Electricity Market Design",
       "Section": null,
@@ -323,7 +323,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "API-201-A-Fall",
+      "Course ID": "API-201-Fall-A",
       "Course No": "API-201",
       "Title": "Quantitative Analysis and Empirical Methods",
       "Section": "A",
@@ -337,21 +337,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "API-201-C-Fall",
-      "Course No": "API-201",
-      "Title": "Quantitative Analysis and Empirical Methods",
-      "Section": "C",
-      "Credits": "4.00",
-      "Term": "Fall",
-      "Faculty": "Dan Levy",
-      "Class Day": "T/Th",
-      "Class Time": "8:45 AM-10:00 AM",
-      "Review Day": null,
-      "Review Room": null,
-      "Review Time": null
-    },
-    {
-      "Course ID": "API-201-D-Fall",
+      "Course ID": "API-201-Fall-D",
       "Course No": "API-201",
       "Title": "Quantitative Analysis and Empirical Methods",
       "Section": "D",
@@ -365,7 +351,21 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "API-201-Z-Fall",
+      "Course ID": "API-201-Fall-C",
+      "Course No": "API-201",
+      "Title": "Quantitative Analysis and Empirical Methods",
+      "Section": "C",
+      "Credits": "4.00",
+      "Term": "Fall",
+      "Faculty": "Dan Levy",
+      "Class Day": "T/Th",
+      "Class Time": "8:45 AM-10:00 AM",
+      "Review Day": null,
+      "Review Room": null,
+      "Review Time": null
+    },
+    {
+      "Course ID": "API-201-Fall-Z",
       "Course No": "API-201",
       "Title": "Quantitative Analysis and Empirical Methods",
       "Section": "Z",
@@ -379,7 +379,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "API-202-A-Spring",
+      "Course ID": "API-202-Spring-A",
       "Course No": "API-202",
       "Title": "Empirical Methods II",
       "Section": "A",
@@ -393,35 +393,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "API-202-B-Spring",
-      "Course No": "API-202",
-      "Title": "Empirical Methods II",
-      "Section": "B",
-      "Credits": "4.00",
-      "Term": "Spring",
-      "Faculty": "Miguel Santos",
-      "Class Day": "M/W",
-      "Class Time": "10:15 AM-11:30 AM",
-      "Review Day": null,
-      "Review Room": null,
-      "Review Time": null
-    },
-    {
-      "Course ID": "API-202-I-Spring",
-      "Course No": "API-202",
-      "Title": "Empirical Methods II",
-      "Section": "I",
-      "Credits": "4.00",
-      "Term": "Spring",
-      "Faculty": "Anders Jensen",
-      "Class Day": "M/W",
-      "Class Time": "10:15 AM-11:30 AM",
-      "Review Day": null,
-      "Review Room": null,
-      "Review Time": null
-    },
-    {
-      "Course ID": "API-202-Z-Spring",
+      "Course ID": "API-202-Spring-Z",
       "Course No": "API-202",
       "Title": "Empirical Methods II",
       "Section": "Z",
@@ -435,7 +407,35 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "API-205--Fall",
+      "Course ID": "API-202-Spring-I",
+      "Course No": "API-202",
+      "Title": "Empirical Methods II",
+      "Section": "I",
+      "Credits": "4.00",
+      "Term": "Spring",
+      "Faculty": "Anders Jensen",
+      "Class Day": "M/W",
+      "Class Time": "10:15 AM-11:30 AM",
+      "Review Day": null,
+      "Review Room": null,
+      "Review Time": null
+    },
+    {
+      "Course ID": "API-202-Spring-B",
+      "Course No": "API-202",
+      "Title": "Empirical Methods II",
+      "Section": "B",
+      "Credits": "4.00",
+      "Term": "Spring",
+      "Faculty": "Miguel Santos",
+      "Class Day": "M/W",
+      "Class Time": "10:15 AM-11:30 AM",
+      "Review Day": null,
+      "Review Room": null,
+      "Review Time": null
+    },
+    {
+      "Course ID": "API-205-Fall-",
       "Course No": "API-205",
       "Title": "Politics and Policies: What Can Data Tell Us?",
       "Section": null,
@@ -449,7 +449,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "API-206--Spring",
+      "Course ID": "API-206-Spring-",
       "Course No": "API-206",
       "Title": "Fundamentals of Program and Policy Evaluation",
       "Section": null,
@@ -463,7 +463,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "API-209--Fall",
+      "Course ID": "API-209-Fall-",
       "Course No": "API-209",
       "Title": "Advanced Quantitative Methods I: Statistics",
       "Section": null,
@@ -477,7 +477,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "API-210--Spring",
+      "Course ID": "API-210-Spring-",
       "Course No": "API-210",
       "Title": "Advanced Quantitative Methods II: Econometric Methods",
       "Section": null,
@@ -491,7 +491,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "API-211--Spring",
+      "Course ID": "API-211-Spring-",
       "Course No": "API-211",
       "Title": "Program Evaluation",
       "Section": null,
@@ -505,7 +505,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "API-302--Fall",
+      "Course ID": "API-302-Fall-",
       "Course No": "API-302",
       "Title": "Analytic Frameworks for Policy",
       "Section": null,
@@ -519,7 +519,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "API-303--Fall",
+      "Course ID": "API-303-Fall-",
       "Course No": "API-303",
       "Title": "Game Theory and Strategic Decisions",
       "Section": null,
@@ -533,7 +533,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "API-304--Fall",
+      "Course ID": "API-304-Fall-",
       "Course No": "API-304",
       "Title": "Behavioral Economics and Public Policy",
       "Section": null,
@@ -547,7 +547,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "API-305--Spring",
+      "Course ID": "API-305-Spring-",
       "Course No": "API-305",
       "Title": "Behavioral Economics, Law and Public Policy",
       "Section": null,
@@ -561,27 +561,13 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "API-500M-A-Spring 2",
-      "Course No": "API-500M",
-      "Title": "Spring Policy Exercise",
-      "Section": "A",
-      "Credits": "2.00",
-      "Term": "Spring 2",
-      "Faculty": null,
-      "Class Day": "T/Th",
-      "Class Time": "1:15 PM-2:30 PM",
-      "Review Day": null,
-      "Review Room": null,
-      "Review Time": null
-    },
-    {
-      "Course ID": "API-500M-B-Spring 2",
+      "Course ID": "API-500M-Spring 2-B",
       "Course No": "API-500M",
       "Title": "Spring Policy Exercise",
       "Section": "B",
       "Credits": "2.00",
       "Term": "Spring 2",
-      "Faculty": null,
+      "Faculty": "John Donahue",
       "Class Day": "T/Th",
       "Class Time": "1:15 PM-2:30 PM",
       "Review Day": null,
@@ -589,27 +575,13 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "API-500M-C-Spring 2",
-      "Course No": "API-500M",
-      "Title": "Spring Policy Exercise",
-      "Section": "C",
-      "Credits": "2.00",
-      "Term": "Spring 2",
-      "Faculty": null,
-      "Class Day": "T/Th",
-      "Class Time": "1:15 PM-2:30 PM",
-      "Review Day": null,
-      "Review Room": null,
-      "Review Time": null
-    },
-    {
-      "Course ID": "API-500M-D-Spring 2",
+      "Course ID": "API-500M-Spring 2-D",
       "Course No": "API-500M",
       "Title": "Spring Policy Exercise",
       "Section": "D",
       "Credits": "2.00",
       "Term": "Spring 2",
-      "Faculty": null,
+      "Faculty": "William Clark",
       "Class Day": "T/Th",
       "Class Time": "1:15 PM-2:30 PM",
       "Review Day": null,
@@ -617,7 +589,35 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "API-525--Spring",
+      "Course ID": "API-500M-Spring 2-C",
+      "Course No": "API-500M",
+      "Title": "Spring Policy Exercise",
+      "Section": "C",
+      "Credits": "2.00",
+      "Term": "Spring 2",
+      "Faculty": "Mark Fagan",
+      "Class Day": "T/Th",
+      "Class Time": "1:15 PM-2:30 PM",
+      "Review Day": null,
+      "Review Room": null,
+      "Review Time": null
+    },
+    {
+      "Course ID": "API-500M-Spring 2-A",
+      "Course No": "API-500M",
+      "Title": "Spring Policy Exercise",
+      "Section": "A",
+      "Credits": "2.00",
+      "Term": "Spring 2",
+      "Faculty": "Sheila Burke",
+      "Class Day": "T/Th",
+      "Class Time": "1:15 PM-2:30 PM",
+      "Review Day": null,
+      "Review Room": null,
+      "Review Time": null
+    },
+    {
+      "Course ID": "API-525-Spring-",
       "Course No": "API-525",
       "Title": "Ideas and Interests",
       "Section": null,
@@ -631,7 +631,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "API-901--Fall",
+      "Course ID": "API-901-Fall-",
       "Course No": "API-901",
       "Title": "Doctoral Research Seminar",
       "Section": null,
@@ -645,7 +645,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "API-902--Fall",
+      "Course ID": "API-902-Fall-",
       "Course No": "API-902",
       "Title": "Doctoral Research Seminar",
       "Section": null,
@@ -659,11 +659,11 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "API-905Y--Year",
+      "Course ID": "API-905Y-Year-",
       "Course No": "API-905Y",
-      "Title": "Seminar on Environmental Economics and Policy (spring)",
+      "Title": "Seminar on Environmental Economics and Policy",
       "Section": null,
-      "Credits": "2.00",
+      "Credits": "4.00",
       "Term": "Year",
       "Faculty": "Martin Weitzman, Robert Stavins",
       "Class Day": "W",
@@ -673,11 +673,11 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "BGP-150Y--Year",
+      "Course ID": "BGP-150Y-Year-",
       "Course No": "BGP-150Y",
-      "Title": "Seminar: Business and Government (spring)",
+      "Title": "Seminar: Business and Government",
       "Section": null,
-      "Credits": "2.00",
+      "Credits": "4.00",
       "Term": "Year",
       "Faculty": "John Haigh",
       "Class Day": "Th",
@@ -687,7 +687,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "BGP-235M--Fall 2",
+      "Course ID": "BGP-235M-Fall 2-",
       "Course No": "BGP-235M",
       "Title": "Private Capital for Public Purpose: Impact Investing and Its Siblings",
       "Section": null,
@@ -701,7 +701,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "BGP-238--Spring",
+      "Course ID": "BGP-238-Spring-",
       "Course No": "BGP-238",
       "Title": "Corporate Governance",
       "Section": null,
@@ -715,7 +715,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "BGP-264--Spring",
+      "Course ID": "BGP-264-Spring-",
       "Course No": "BGP-264",
       "Title": "Capital Markets Regulation",
       "Section": null,
@@ -729,7 +729,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "BGP-450M--January",
+      "Course ID": "BGP-450M-January-",
       "Course No": "BGP-450M",
       "Title": "Globalization:  Business, Legal and Public Policy Issues",
       "Section": null,
@@ -743,9 +743,9 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "BGP-510Y--Year",
+      "Course ID": "BGP-510Y-Year-",
       "Course No": "BGP-510Y",
-      "Title": "HKS-HBS Joint Degree First-Year Seminar (spring)",
+      "Title": "HKS-HBS Joint Degree First-Year Seminar",
       "Section": null,
       "Credits": "2.00",
       "Term": "Year",
@@ -757,7 +757,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "BGP-610--Fall",
+      "Course ID": "BGP-610-Fall-",
       "Course No": "BGP-610",
       "Title": "The Political Economy of Trade",
       "Section": null,
@@ -771,7 +771,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "BGP-620--Spring",
+      "Course ID": "BGP-620-Spring-",
       "Course No": "BGP-620",
       "Title": "International Macroeconomics",
       "Section": null,
@@ -785,7 +785,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "BGP-625--Fall",
+      "Course ID": "BGP-625-Fall-",
       "Course No": "BGP-625",
       "Title": "The Future of Globalization: Issues, Actors, and Decisions",
       "Section": null,
@@ -799,7 +799,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "BGP-670--Spring",
+      "Course ID": "BGP-670-Spring-",
       "Course No": "BGP-670",
       "Title": "Financial Crises: Concepts and Evidence",
       "Section": null,
@@ -813,7 +813,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DEV-101--Fall",
+      "Course ID": "DEV-101-Fall-",
       "Course No": "DEV-101",
       "Title": "Economic Development: Theory and Evidence",
       "Section": null,
@@ -827,7 +827,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DEV-102--Spring",
+      "Course ID": "DEV-102-Spring-",
       "Course No": "DEV-102",
       "Title": "Economic Development: Using Analytical Frameworks for Smart Policy Design",
       "Section": null,
@@ -841,7 +841,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DEV-115--Spring",
+      "Course ID": "DEV-115-Spring-",
       "Course No": "DEV-115",
       "Title": "Using Data to Understand Good Governance",
       "Section": null,
@@ -855,7 +855,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DEV-130--Fall",
+      "Course ID": "DEV-130-Fall-",
       "Course No": "DEV-130",
       "Title": "Why Are So Many Countries Poor, Volatile, and Unequal?",
       "Section": null,
@@ -869,11 +869,11 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DEV-150Y--Year",
+      "Course ID": "DEV-150Y-Year-",
       "Course No": "DEV-150Y",
-      "Title": "Seminar: Political and Economic Development (spring)",
+      "Title": "Seminar: Political and Economic Development",
       "Section": null,
-      "Credits": "2.00",
+      "Credits": "4.00",
       "Term": "Year",
       "Faculty": "Ryan Sheely",
       "Class Day": "Th",
@@ -883,7 +883,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DEV-209--Spring",
+      "Course ID": "DEV-209-Spring-",
       "Course No": "DEV-209",
       "Title": "Management, Finance, and Regulation of Public Infrastructure in Developing Countries",
       "Section": null,
@@ -897,7 +897,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DEV-210--Fall",
+      "Course ID": "DEV-210-Fall-",
       "Course No": "DEV-210",
       "Title": "Public Finance in Theory and Practice",
       "Section": null,
@@ -911,7 +911,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DEV-233--Spring",
+      "Course ID": "DEV-233-Spring-",
       "Course No": "DEV-233",
       "Title": "Political Economy After the Crisis",
       "Section": null,
@@ -925,25 +925,11 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DEV-250Y-A-Year",
+      "Course ID": "DEV-250Y-Year-B",
       "Course No": "DEV-250Y",
-      "Title": "Second-Year Policy Analysis Seminar (spring)",
-      "Section": "A",
-      "Credits": "2.00",
-      "Term": "Year",
-      "Faculty": "Carmen Reinhart",
-      "Class Day": "Th",
-      "Class Time": "4:15 PM-6:00 PM",
-      "Review Day": null,
-      "Review Room": null,
-      "Review Time": null
-    },
-    {
-      "Course ID": "DEV-250Y-B-Year",
-      "Course No": "DEV-250Y",
-      "Title": "Second-Year Policy Analysis Seminar (spring)",
+      "Title": "Second-Year Policy Analysis Seminar",
       "Section": "B",
-      "Credits": "2.00",
+      "Credits": "6.00",
       "Term": "Year",
       "Faculty": "Rema Hanna",
       "Class Day": "Th",
@@ -953,11 +939,11 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DEV-250Y-C-Year",
+      "Course ID": "DEV-250Y-Year-C",
       "Course No": "DEV-250Y",
-      "Title": "Second-Year Policy Analysis Seminar (spring)",
+      "Title": "Second-Year Policy Analysis Seminar",
       "Section": "C",
-      "Credits": "2.00",
+      "Credits": "6.00",
       "Term": "Year",
       "Faculty": "Michael Walton",
       "Class Day": "Th",
@@ -967,7 +953,21 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DEV-308--Spring",
+      "Course ID": "DEV-250Y-Year-A",
+      "Course No": "DEV-250Y",
+      "Title": "Second-Year Policy Analysis Seminar",
+      "Section": "A",
+      "Credits": "6.00",
+      "Term": "Year",
+      "Faculty": "Carmen Reinhart",
+      "Class Day": "Th",
+      "Class Time": "4:15 PM-6:00 PM",
+      "Review Day": null,
+      "Review Room": null,
+      "Review Time": null
+    },
+    {
+      "Course ID": "DEV-308-Spring-",
       "Course No": "DEV-308",
       "Title": "Social Institutions and Economic Development",
       "Section": null,
@@ -981,7 +981,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DEV-309--Fall",
+      "Course ID": "DEV-309-Fall-",
       "Course No": "DEV-309",
       "Title": "Development Policy Strategy",
       "Section": null,
@@ -995,7 +995,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DEV-320M--Fall 2",
+      "Course ID": "DEV-320M-Fall 2-",
       "Course No": "DEV-320M",
       "Title": "Scaling Up for Development Impact",
       "Section": null,
@@ -1009,7 +1009,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DEV-325M--January",
+      "Course ID": "DEV-325M-January-",
       "Course No": "DEV-325M",
       "Title": "Bureaucracy and Policy: Opening the Black Box of Governance",
       "Section": null,
@@ -1023,21 +1023,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DEV-329--Spring",
-      "Course No": "DEV-329",
-      "Title": "The Microeconomics of Competiveness: Firms, Clusters, and Economic Development",
-      "Section": null,
-      "Credits": "4.00",
-      "Term": "Spring",
-      "Faculty": "Laura Alfaro",
-      "Class Day": null,
-      "Class Time": null,
-      "Review Day": null,
-      "Review Room": null,
-      "Review Time": null
-    },
-    {
-      "Course ID": "DEV-338--Fall",
+      "Course ID": "DEV-338-Fall-",
       "Course No": "DEV-338",
       "Title": "Contemporary Developing Countries: Entrepreneurial Solutions to Intractable Problems",
       "Section": null,
@@ -1051,7 +1037,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DEV-375--Spring",
+      "Course ID": "DEV-375-Spring-",
       "Course No": "DEV-375",
       "Title": "The Informal Economy: Is Formalization the Answer?",
       "Section": null,
@@ -1065,11 +1051,11 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DEV-401Y--Year",
+      "Course ID": "DEV-401Y-Year-",
       "Course No": "DEV-401Y",
-      "Title": "Applications and Cases in International Development (spring)",
+      "Title": "Applications and Cases in International Development",
       "Section": null,
-      "Credits": "2.00",
+      "Credits": "4.00",
       "Term": "Year",
       "Faculty": "Michael Walton, Lant Pritchett",
       "Class Day": "T/Th",
@@ -1079,7 +1065,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DEV-501M--January",
+      "Course ID": "DEV-501M-January-",
       "Course No": "DEV-501M",
       "Title": "Native Americans in the 21st Century: Nation Building I",
       "Section": null,
@@ -1093,7 +1079,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DEV-502--Spring",
+      "Course ID": "DEV-502-Spring-",
       "Course No": "DEV-502",
       "Title": "Native Americans in the 21st Century: Nation Building II",
       "Section": null,
@@ -1107,49 +1093,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-101-G-Spring",
-      "Course No": "DPI-101",
-      "Title": "Political Institutions and Public Policy",
-      "Section": "G",
-      "Credits": "4.00",
-      "Term": "Spring",
-      "Faculty": "Thomas Patterson",
-      "Class Day": "M/W",
-      "Class Time": "11:45 AM-1:00 PM",
-      "Review Day": null,
-      "Review Room": null,
-      "Review Time": null
-    },
-    {
-      "Course ID": "DPI-101-H-Spring",
-      "Course No": "DPI-101",
-      "Title": "Political Institutions and Public Policy",
-      "Section": "H",
-      "Credits": "4.00",
-      "Term": "Spring",
-      "Faculty": "Matthew Baum",
-      "Class Day": "M/W",
-      "Class Time": "11:45 AM-1:00 PM",
-      "Review Day": null,
-      "Review Room": null,
-      "Review Time": null
-    },
-    {
-      "Course ID": "DPI-101-I-Spring",
-      "Course No": "DPI-101",
-      "Title": "Political Institutions and Public Policy",
-      "Section": "I",
-      "Credits": "4.00",
-      "Term": "Spring",
-      "Faculty": "Tarek Masoud",
-      "Class Day": "M/W",
-      "Class Time": "11:45 AM-1:00 PM",
-      "Review Day": null,
-      "Review Room": null,
-      "Review Time": null
-    },
-    {
-      "Course ID": "DPI-101-J-Spring",
+      "Course ID": "DPI-101-Spring-J",
       "Course No": "DPI-101",
       "Title": "Political Institutions and Public Policy",
       "Section": "J",
@@ -1163,7 +1107,49 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-117M--Spring 2",
+      "Course ID": "DPI-101-Spring-I",
+      "Course No": "DPI-101",
+      "Title": "Political Institutions and Public Policy",
+      "Section": "I",
+      "Credits": "4.00",
+      "Term": "Spring",
+      "Faculty": "Tarek Masoud",
+      "Class Day": "M/W",
+      "Class Time": "11:45 AM-1:00 PM",
+      "Review Day": null,
+      "Review Room": null,
+      "Review Time": null
+    },
+    {
+      "Course ID": "DPI-101-Spring-H",
+      "Course No": "DPI-101",
+      "Title": "Political Institutions and Public Policy",
+      "Section": "H",
+      "Credits": "4.00",
+      "Term": "Spring",
+      "Faculty": "Matthew Baum",
+      "Class Day": "M/W",
+      "Class Time": "11:45 AM-1:00 PM",
+      "Review Day": null,
+      "Review Room": null,
+      "Review Time": null
+    },
+    {
+      "Course ID": "DPI-101-Spring-G",
+      "Course No": "DPI-101",
+      "Title": "Political Institutions and Public Policy",
+      "Section": "G",
+      "Credits": "4.00",
+      "Term": "Spring",
+      "Faculty": "Thomas Patterson",
+      "Class Day": "M/W",
+      "Class Time": "11:45 AM-1:00 PM",
+      "Review Day": null,
+      "Review Room": null,
+      "Review Time": null
+    },
+    {
+      "Course ID": "DPI-117M-Spring 2-",
       "Course No": "DPI-117M",
       "Title": "The Evolution of the 21st Century American Presidency: Bush, Obama, and Trump",
       "Section": null,
@@ -1177,7 +1163,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-120--Spring",
+      "Course ID": "DPI-120-Spring-",
       "Course No": "DPI-120",
       "Title": "The U.S. Congress and Law Making",
       "Section": null,
@@ -1191,7 +1177,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-122--Fall",
+      "Course ID": "DPI-122-Fall-",
       "Course No": "DPI-122",
       "Title": "Politics and American Public Policy",
       "Section": null,
@@ -1205,7 +1191,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-132--Fall",
+      "Course ID": "DPI-132-Fall-",
       "Course No": "DPI-132",
       "Title": "Presidents, Politics, and Economic Growth: From FDR to Donald Trump",
       "Section": null,
@@ -1219,11 +1205,11 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-150Y--Year",
+      "Course ID": "DPI-150Y-Year-",
       "Course No": "DPI-150Y",
-      "Title": "Seminar: Democracy, Politics, and Institutions (spring)",
+      "Title": "Seminar: Democracy, Politics, and Institutions",
       "Section": null,
-      "Credits": "2.00",
+      "Credits": "4.00",
       "Term": "Year",
       "Faculty": "Matthew Baum",
       "Class Day": "Th",
@@ -1233,35 +1219,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-201-A-Fall",
-      "Course No": "DPI-201",
-      "Title": "The Responsibilities of Public Action",
-      "Section": "A",
-      "Credits": "4.00",
-      "Term": "Fall",
-      "Faculty": "Mathias Risse",
-      "Class Day": "M/W",
-      "Class Time": "2:45 PM-4:00 PM",
-      "Review Day": null,
-      "Review Room": null,
-      "Review Time": null
-    },
-    {
-      "Course ID": "DPI-201-B-Fall",
-      "Course No": "DPI-201",
-      "Title": "The Responsibilities of Public Action",
-      "Section": "B",
-      "Credits": "4.00",
-      "Term": "Fall",
-      "Faculty": "Christopher Robichaud",
-      "Class Day": "M/W",
-      "Class Time": "2:45 PM-4:00 PM",
-      "Review Day": null,
-      "Review Room": null,
-      "Review Time": null
-    },
-    {
-      "Course ID": "DPI-201-C-Fall",
+      "Course ID": "DPI-201-Fall-C",
       "Course No": "DPI-201",
       "Title": "The Responsibilities of Public Action",
       "Section": "C",
@@ -1275,7 +1233,21 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-201-D-Fall",
+      "Course ID": "DPI-201-Fall-B",
+      "Course No": "DPI-201",
+      "Title": "The Responsibilities of Public Action",
+      "Section": "B",
+      "Credits": "4.00",
+      "Term": "Fall",
+      "Faculty": "Christopher Robichaud",
+      "Class Day": "M/W",
+      "Class Time": "2:45 PM-4:00 PM",
+      "Review Day": null,
+      "Review Room": null,
+      "Review Time": null
+    },
+    {
+      "Course ID": "DPI-201-Fall-D",
       "Course No": "DPI-201",
       "Title": "The Responsibilities of Public Action",
       "Section": "D",
@@ -1289,21 +1261,35 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-204--Fall",
+      "Course ID": "DPI-201-Fall-A",
+      "Course No": "DPI-201",
+      "Title": "The Responsibilities of Public Action",
+      "Section": "A",
+      "Credits": "4.00",
+      "Term": "Fall",
+      "Faculty": "Mathias Risse",
+      "Class Day": "M/W",
+      "Class Time": "2:45 PM-4:00 PM",
+      "Review Day": null,
+      "Review Room": null,
+      "Review Time": null
+    },
+    {
+      "Course ID": "DPI-204-Fall-",
       "Course No": "DPI-204",
       "Title": "Seminar in Bioethics",
       "Section": null,
       "Credits": "4.00",
       "Term": "Fall",
       "Faculty": "Frances Kamm",
-      "Class Day": null,
-      "Class Time": null,
+      "Class Day": "W",
+      "Class Time": "4:00 PM-6:00 PM",
       "Review Day": null,
       "Review Room": null,
       "Review Time": null
     },
     {
-      "Course ID": "DPI-216--Spring",
+      "Course ID": "DPI-216-Spring-",
       "Course No": "DPI-216",
       "Title": "Democratic Theory",
       "Section": null,
@@ -1317,7 +1303,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-218--Spring",
+      "Course ID": "DPI-218-Spring-",
       "Course No": "DPI-218",
       "Title": "Principled Disobedience in Democracies",
       "Section": null,
@@ -1331,21 +1317,21 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-227--Fall",
+      "Course ID": "DPI-227-Fall-",
       "Course No": "DPI-227",
       "Title": "Religion in America’s Political Conscience and at the Ballot Box",
       "Section": null,
       "Credits": "4.00",
       "Term": "Fall",
       "Faculty": "Eugene Dionne",
-      "Class Day": null,
-      "Class Time": null,
+      "Class Day": "T/Th",
+      "Class Time": "10:00 AM-11:29 AM",
       "Review Day": null,
       "Review Room": null,
       "Review Time": null
     },
     {
-      "Course ID": "DPI-235--Spring",
+      "Course ID": "DPI-235-Spring-",
       "Course No": "DPI-235",
       "Title": "Economic Justice",
       "Section": null,
@@ -1359,7 +1345,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-242--Spring",
+      "Course ID": "DPI-242-Spring-",
       "Course No": "DPI-242",
       "Title": "Ignorance, Lies, Hogwash, and Humbug:  The Value of Truth and Knowledge in Democracies",
       "Section": null,
@@ -1373,7 +1359,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-253--Spring",
+      "Course ID": "DPI-253-Spring-",
       "Course No": "DPI-253",
       "Title": "Killing and Letting Die in Public Policy: From A(bortion) to W(ar)",
       "Section": null,
@@ -1387,13 +1373,13 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-305--Fall",
+      "Course ID": "DPI-305-Fall-",
       "Course No": "DPI-305",
       "Title": "Challenges Facing Democracy in the United States",
       "Section": null,
       "Credits": "4.00",
       "Term": "Fall",
-      "Faculty": "Alex Course IDssar",
+      "Faculty": "Alex Keyssar",
       "Class Day": "T/Th",
       "Class Time": "1:15 PM-2:30 PM",
       "Review Day": null,
@@ -1401,21 +1387,35 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-312--Fall",
-      "Course No": "DPI-312",
-      "Title": "Sparking Social Change: Theory and Analytic Frameworks",
+      "Course ID": "DPI-312M-Fall 1-",
+      "Course No": "DPI-312M",
+      "Title": "Sparking Social Change: Analytic Frameworks to Guide Social Innovators",
       "Section": null,
-      "Credits": "4.00",
-      "Term": "Fall",
+      "Credits": "2.00",
+      "Term": "Fall 1",
       "Faculty": "Mark Moore",
-      "Class Day": "T/Th",
-      "Class Time": "2:45 PM-4:00 PM",
+      "Class Day": null,
+      "Class Time": null,
       "Review Day": null,
       "Review Room": null,
       "Review Time": null
     },
     {
-      "Course ID": "DPI-324--Fall",
+      "Course ID": "DPI-313M-January-",
+      "Course No": "DPI-313M",
+      "Title": "Sparking Social Change: Design Lab",
+      "Section": null,
+      "Credits": "2.00",
+      "Term": "January",
+      "Faculty": "Mark Moore",
+      "Class Day": null,
+      "Class Time": null,
+      "Review Day": null,
+      "Review Room": null,
+      "Review Time": null
+    },
+    {
+      "Course ID": "DPI-324-Fall-",
       "Course No": "DPI-324",
       "Title": "Running for Office and Managing Campaigns",
       "Section": null,
@@ -1429,7 +1429,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-330-A-Fall",
+      "Course ID": "DPI-330-Fall-A",
       "Course No": "DPI-330",
       "Title": "The Making of a Politician",
       "Section": "A",
@@ -1443,7 +1443,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-330-B-Spring",
+      "Course ID": "DPI-330-Spring-B",
       "Course No": "DPI-330",
       "Title": "The Making of a Politician",
       "Section": "B",
@@ -1457,7 +1457,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-337--Spring",
+      "Course ID": "DPI-337-Spring-",
       "Course No": "DPI-337",
       "Title": "Party System Institutionalization, Decay, and Collapse",
       "Section": null,
@@ -1471,7 +1471,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-342--Fall",
+      "Course ID": "DPI-342-Fall-",
       "Course No": "DPI-342",
       "Title": "Religion, Politics, and Public Policy in America",
       "Section": null,
@@ -1485,7 +1485,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-345M--Spring 1",
+      "Course ID": "DPI-345M-Spring 1-",
       "Course No": "DPI-345M",
       "Title": "Green Politics and Public Policy in a Global Age",
       "Section": null,
@@ -1493,13 +1493,13 @@ var data = {
       "Term": "Spring 1",
       "Faculty": "Muriel Rouyer",
       "Class Day": "T/Th",
-      "Class Time": "2:45 PM-4:00 PM",
+      "Class Time": "1:15 PM-2:30 PM",
       "Review Day": null,
       "Review Room": null,
       "Review Time": null
     },
     {
-      "Course ID": "DPI-348--Spring",
+      "Course ID": "DPI-348-Spring-",
       "Course No": "DPI-348",
       "Title": "Progressive Alternatives: Institutional Reconstruction Today",
       "Section": null,
@@ -1513,7 +1513,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-351M--January",
+      "Course ID": "DPI-351M-January-",
       "Course No": "DPI-351M",
       "Title": "Lobbying: Theory, Practice, and Simulations",
       "Section": null,
@@ -1527,7 +1527,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-365--Spring",
+      "Course ID": "DPI-365-Spring-",
       "Course No": "DPI-365",
       "Title": "Plutocracy, Philanthropy, and the Public Good",
       "Section": null,
@@ -1541,7 +1541,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-391--Fall",
+      "Course ID": "DPI-391-Fall-",
       "Course No": "DPI-391",
       "Title": "Race, Inequality, and American Democracy",
       "Section": null,
@@ -1555,7 +1555,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-401M--Fall 2",
+      "Course ID": "DPI-401M-Fall 2-",
       "Course No": "DPI-401M",
       "Title": "Institutions and Development",
       "Section": null,
@@ -1569,7 +1569,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-407--Fall",
+      "Course ID": "DPI-407-Fall-",
       "Course No": "DPI-407",
       "Title": "Getting and Keeping Democracy",
       "Section": null,
@@ -1583,7 +1583,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-415--Fall",
+      "Course ID": "DPI-415-Fall-",
       "Course No": "DPI-415",
       "Title": "Comparative Politics and Policy",
       "Section": null,
@@ -1591,13 +1591,13 @@ var data = {
       "Term": "Fall",
       "Faculty": "Pippa Norris",
       "Class Day": "M/W",
-      "Class Time": "2:45 PM-4:00 PM",
+      "Class Time": "11:45 AM-1:00 PM",
       "Review Day": null,
       "Review Room": null,
       "Review Time": null
     },
     {
-      "Course ID": "DPI-421--Fall",
+      "Course ID": "DPI-421-Fall-",
       "Course No": "DPI-421",
       "Title": "Power Shifts: Understanding Global Change Through History",
       "Section": null,
@@ -1611,7 +1611,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-425--Fall",
+      "Course ID": "DPI-425-Fall-",
       "Course No": "DPI-425",
       "Title": "U.S. Workers and Workplace Policies",
       "Section": null,
@@ -1625,7 +1625,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-431--Fall",
+      "Course ID": "DPI-431-Fall-",
       "Course No": "DPI-431",
       "Title": "Global Europe in the 21st Century: Democracy, Governance, and Policy",
       "Section": null,
@@ -1639,7 +1639,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-440--Fall",
+      "Course ID": "DPI-440-Fall-",
       "Course No": "DPI-440",
       "Title": "Middle Eastern Politics and Policy",
       "Section": null,
@@ -1653,7 +1653,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-450--Spring",
+      "Course ID": "DPI-450-Spring-",
       "Course No": "DPI-450",
       "Title": "The Political Economy of Transition in China",
       "Section": null,
@@ -1667,7 +1667,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-452--Spring",
+      "Course ID": "DPI-452-Spring-",
       "Course No": "DPI-452",
       "Title": "Restless Empire:  The Past, Present, and Future of Chinese Power",
       "Section": null,
@@ -1681,7 +1681,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-454--Spring",
+      "Course ID": "DPI-454-Spring-",
       "Course No": "DPI-454",
       "Title": "The Asia-Pacific in Transition",
       "Section": null,
@@ -1695,7 +1695,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-460--Spring",
+      "Course ID": "DPI-460-Spring-",
       "Course No": "DPI-460",
       "Title": "Latin American Politics and Policymaking",
       "Section": null,
@@ -1709,7 +1709,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-515--Spring",
+      "Course ID": "DPI-515-Spring-",
       "Course No": "DPI-515",
       "Title": "Disability Law and Policy",
       "Section": null,
@@ -1723,7 +1723,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-540M--January",
+      "Course ID": "DPI-540M-January-",
       "Course No": "DPI-540M",
       "Title": "Combatting Corruption Internationally",
       "Section": null,
@@ -1737,7 +1737,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-562--Fall",
+      "Course ID": "DPI-562-Fall-",
       "Course No": "DPI-562",
       "Title": "Public Problems: Advice, Strategy and Analysis",
       "Section": null,
@@ -1751,9 +1751,9 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-563Y--Year",
+      "Course ID": "DPI-563Y-Year-",
       "Course No": "DPI-563Y",
-      "Title": "Integrated Law/Policy Research and Writing (spring)",
+      "Title": "Integrated Law/Policy Research and Writing",
       "Section": null,
       "Credits": "2.00",
       "Term": "Year",
@@ -1765,7 +1765,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-616--Fall",
+      "Course ID": "DPI-616-Fall-",
       "Course No": "DPI-616",
       "Title": "Public Opinion",
       "Section": null,
@@ -1773,13 +1773,13 @@ var data = {
       "Term": "Fall",
       "Faculty": "Pippa Norris",
       "Class Day": "M/W",
-      "Class Time": "11:45 AM-1:00 PM",
+      "Class Time": "2:45 PM-4:00 PM",
       "Review Day": null,
       "Review Room": null,
       "Review Time": null
     },
     {
-      "Course ID": "DPI-662--Fall",
+      "Course ID": "DPI-662-Fall-",
       "Course No": "DPI-662",
       "Title": "Digital Government: Technology, Policy, and Public Service Innovation",
       "Section": null,
@@ -1793,7 +1793,21 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-670M--Spring 1",
+      "Course ID": "DPI-663-Spring-",
+      "Course No": "DPI-663",
+      "Title": "Tech and Innovation in Government (Field Class)",
+      "Section": null,
+      "Credits": "4.00",
+      "Term": "Spring",
+      "Faculty": "Nicholas Sinai",
+      "Class Day": "F",
+      "Class Time": "9:00 AM-12:00 PM",
+      "Review Day": null,
+      "Review Room": null,
+      "Review Time": null
+    },
+    {
+      "Course ID": "DPI-670M-Spring 1-",
       "Course No": "DPI-670M",
       "Title": "Preventing Digital Disaster: Why Digital Implementations So Often Go Badly",
       "Section": null,
@@ -1807,7 +1821,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-671M--Spring 2",
+      "Course ID": "DPI-671M-Spring 2-",
       "Course No": "DPI-671M",
       "Title": "Disrupting Bureaucracy: Understanding Recent Efforts in Digital Government",
       "Section": null,
@@ -1821,7 +1835,35 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-676M--Spring 2",
+      "Course ID": "DPI-674M-Spring 1-",
+      "Course No": "DPI-674M",
+      "Title": "The Internet and Political Campaigns",
+      "Section": null,
+      "Credits": "2.00",
+      "Term": "Spring 1",
+      "Faculty": "Nicco Mele",
+      "Class Day": "T/Th",
+      "Class Time": "11:45 AM-1:00 PM",
+      "Review Day": null,
+      "Review Room": null,
+      "Review Time": null
+    },
+    {
+      "Course ID": "DPI-675M-Spring 2-",
+      "Course No": "DPI-675M",
+      "Title": "Media and Journalism in the Digital Age",
+      "Section": null,
+      "Credits": "2.00",
+      "Term": "Spring 2",
+      "Faculty": "Nicco Mele",
+      "Class Day": "T/Th",
+      "Class Time": "11:45 AM-1:00 PM",
+      "Review Day": null,
+      "Review Room": null,
+      "Review Time": null
+    },
+    {
+      "Course ID": "DPI-676M-Spring 2-",
       "Course No": "DPI-676M",
       "Title": "Designing Government",
       "Section": null,
@@ -1829,16 +1871,16 @@ var data = {
       "Term": "Spring 2",
       "Faculty": "Dana Chisnell",
       "Class Day": "F",
-      "Class Time": "8:45 AM-11:00 AM",
+      "Class Time": "1:15 PM-4:15 PM",
       "Review Day": null,
       "Review Room": null,
       "Review Time": null
     },
     {
-      "Course ID": "DPI-691M--January",
+      "Course ID": "DPI-691M-January-B",
       "Course No": "DPI-691M",
       "Title": "Programming and Data for Policymakers",
-      "Section": null,
+      "Section": "B",
       "Credits": "2.00",
       "Term": "January",
       "Faculty": "Dhrumil Mehta",
@@ -1849,35 +1891,49 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-720--Spring",
+      "Course ID": "DPI-691M-January-A",
+      "Course No": "DPI-691M",
+      "Title": "Programming and Data for Policymakers",
+      "Section": "A",
+      "Credits": "2.00",
+      "Term": "January",
+      "Faculty": "Dhrumil Mehta",
+      "Class Day": null,
+      "Class Time": null,
+      "Review Day": null,
+      "Review Room": null,
+      "Review Time": null
+    },
+    {
+      "Course ID": "DPI-720-Spring-",
       "Course No": "DPI-720",
       "Title": "Leaders and Leadership in History",
       "Section": null,
       "Credits": "4.00",
       "Term": "Spring",
       "Faculty": "Moshik Temkin",
-      "Class Day": null,
-      "Class Time": null,
+      "Class Day": "M/W",
+      "Class Time": "1:15 PM-2:30 PM",
       "Review Day": null,
       "Review Room": null,
       "Review Time": null
     },
     {
-      "Course ID": "DPI-730--Spring",
+      "Course ID": "DPI-730-Spring-",
       "Course No": "DPI-730",
       "Title": "The Past and the Present: Directed Research in History and Public Policy",
       "Section": null,
       "Credits": "4.00",
       "Term": "Spring",
       "Faculty": "Moshik Temkin",
-      "Class Day": null,
-      "Class Time": null,
+      "Class Day": "M",
+      "Class Time": "4:15 PM-6:00 PM",
       "Review Day": null,
       "Review Room": null,
       "Review Time": null
     },
     {
-      "Course ID": "DPI-801-A-Fall",
+      "Course ID": "DPI-801-Fall-A",
       "Course No": "DPI-801",
       "Title": "The Arts of Communication",
       "Section": "A",
@@ -1891,7 +1947,7 @@ var data = {
       "Review Time": "6:15 PM-8:00 PM"
     },
     {
-      "Course ID": "DPI-801-B-Fall",
+      "Course ID": "DPI-801-Fall-B",
       "Course No": "DPI-801",
       "Title": "The Arts of Communication",
       "Section": "B",
@@ -1905,7 +1961,49 @@ var data = {
       "Review Time": "6:15 PM-8:00 PM"
     },
     {
-      "Course ID": "DPI-802M-A-January",
+      "Course ID": "DPI-802M-Spring 2-E",
+      "Course No": "DPI-802M",
+      "Title": "The Arts of Communication",
+      "Section": "E",
+      "Credits": "2.00",
+      "Term": "Spring 2",
+      "Faculty": "Timothy McCarthy",
+      "Class Day": "T/Th",
+      "Class Time": "4:15 PM-8:00 PM",
+      "Review Day": null,
+      "Review Room": null,
+      "Review Time": null
+    },
+    {
+      "Course ID": "DPI-802M-Spring 2-D",
+      "Course No": "DPI-802M",
+      "Title": "The Arts of Communication",
+      "Section": "D",
+      "Credits": "2.00",
+      "Term": "Spring 2",
+      "Faculty": "Allison Shapira",
+      "Class Day": "M/W",
+      "Class Time": "4:15 PM-8:00 PM",
+      "Review Day": null,
+      "Review Room": null,
+      "Review Time": null
+    },
+    {
+      "Course ID": "DPI-802M-Spring 1-C",
+      "Course No": "DPI-802M",
+      "Title": "The Arts of Communication",
+      "Section": "C",
+      "Credits": "2.00",
+      "Term": "Spring 1",
+      "Faculty": "Holly Weeks",
+      "Class Day": "M/W",
+      "Class Time": "4:15 PM-8:00 PM",
+      "Review Day": null,
+      "Review Room": null,
+      "Review Time": null
+    },
+    {
+      "Course ID": "DPI-802M-January-A",
       "Course No": "DPI-802M",
       "Title": "The Arts of Communication",
       "Section": "A",
@@ -1919,77 +2017,35 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-802M-B-Spring 1",
+      "Course ID": "DPI-802M-Spring 1-B",
       "Course No": "DPI-802M",
       "Title": "The Arts of Communication",
       "Section": "B",
       "Credits": "2.00",
       "Term": "Spring 1",
       "Faculty": "Timothy McCarthy",
-      "Class Day": null,
-      "Class Time": null,
-      "Review Day": "T/Th",
-      "Review Room": "1 Brattle Sq 401 (HKS)",
-      "Review Time": "4:15 PM-8:00 PM"
-    },
-    {
-      "Course ID": "DPI-802M-C-Spring 1",
-      "Course No": "DPI-802M",
-      "Title": "The Arts of Communication",
-      "Section": "C",
-      "Credits": "2.00",
-      "Term": "Spring 1",
-      "Faculty": "Holly Weeks",
-      "Class Day": null,
-      "Class Time": null,
-      "Review Day": "M/W",
-      "Review Room": "1 Brattle Sq 401 (HKS)",
-      "Review Time": "4:15 PM-8:00 PM"
-    },
-    {
-      "Course ID": "DPI-802M-D-Spring 2",
-      "Course No": "DPI-802M",
-      "Title": "The Arts of Communication",
-      "Section": "D",
-      "Credits": "2.00",
-      "Term": "Spring 2",
-      "Faculty": "Allison Shapira",
-      "Class Day": null,
-      "Class Time": null,
-      "Review Day": "M/W",
-      "Review Room": "1 Brattle Sq 401 (HKS)",
-      "Review Time": "4:15 PM-8:00 PM"
-    },
-    {
-      "Course ID": "DPI-802M-E-Spring 2",
-      "Course No": "DPI-802M",
-      "Title": "The Arts of Communication",
-      "Section": "E",
-      "Credits": "2.00",
-      "Term": "Spring 2",
-      "Faculty": "Timothy McCarthy",
-      "Class Day": null,
-      "Class Time": null,
-      "Review Day": "T/Th",
-      "Review Room": "1 Brattle Sq 401 (HKS)",
-      "Review Time": "4:15 PM-8:00 PM"
-    },
-    {
-      "Course ID": "DPI-810M-A-Fall 1",
-      "Course No": "DPI-810M",
-      "Title": "Introduction to Writing for Policy and Politics",
-      "Section": "A",
-      "Credits": "2.00",
-      "Term": "Fall 1",
-      "Faculty": "Greg Harris",
-      "Class Day": "M/W",
-      "Class Time": "11:45 AM-1:00 PM",
+      "Class Day": "T/Th",
+      "Class Time": "4:15 PM-8:00 PM",
       "Review Day": null,
       "Review Room": null,
       "Review Time": null
     },
     {
-      "Course ID": "DPI-810M-B-Fall 2",
+      "Course ID": "DPI-810M-Spring 1-C",
+      "Course No": "DPI-810M",
+      "Title": "Introduction to Writing for Policy and Politics",
+      "Section": "C",
+      "Credits": "2.00",
+      "Term": "Spring 1",
+      "Faculty": "Greg Harris",
+      "Class Day": "M/W",
+      "Class Time": "1:15 PM-2:30 PM",
+      "Review Day": null,
+      "Review Room": null,
+      "Review Time": null
+    },
+    {
+      "Course ID": "DPI-810M-Fall 2-B",
       "Course No": "DPI-810M",
       "Title": "Introduction to Writing for Policy and Politics",
       "Section": "B",
@@ -2003,21 +2059,21 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-810M-C-Spring 1",
+      "Course ID": "DPI-810M-Fall 1-A",
       "Course No": "DPI-810M",
       "Title": "Introduction to Writing for Policy and Politics",
-      "Section": "C",
+      "Section": "A",
       "Credits": "2.00",
-      "Term": "Spring 1",
+      "Term": "Fall 1",
       "Faculty": "Greg Harris",
       "Class Day": "M/W",
-      "Class Time": "1:15 PM-2:30 PM",
+      "Class Time": "11:45 AM-1:00 PM",
       "Review Day": null,
       "Review Room": null,
       "Review Time": null
     },
     {
-      "Course ID": "DPI-810M-D-Spring 2",
+      "Course ID": "DPI-810M-Spring 2-D",
       "Course No": "DPI-810M",
       "Title": "Introduction to Writing for Policy and Politics",
       "Section": "D",
@@ -2031,21 +2087,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-811M-A-Fall 2",
-      "Course No": "DPI-811M",
-      "Title": "Advanced Writing for Policy and Politics",
-      "Section": "A",
-      "Credits": "2.00",
-      "Term": "Fall 2",
-      "Faculty": "Greg Harris",
-      "Class Day": "M/W",
-      "Class Time": "11:45 AM-1:00 PM",
-      "Review Day": null,
-      "Review Room": null,
-      "Review Time": null
-    },
-    {
-      "Course ID": "DPI-811M-B-Spring 2",
+      "Course ID": "DPI-811M-Spring 2-B",
       "Course No": "DPI-811M",
       "Title": "Advanced Writing for Policy and Politics",
       "Section": "B",
@@ -2059,7 +2101,21 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-815M--January",
+      "Course ID": "DPI-811M-Fall 2-A",
+      "Course No": "DPI-811M",
+      "Title": "Advanced Writing for Policy and Politics",
+      "Section": "A",
+      "Credits": "2.00",
+      "Term": "Fall 2",
+      "Faculty": "Greg Harris",
+      "Class Day": "M/W",
+      "Class Time": "11:45 AM-1:00 PM",
+      "Review Day": null,
+      "Review Room": null,
+      "Review Time": null
+    },
+    {
+      "Course ID": "DPI-815M-January-",
       "Course No": "DPI-815M",
       "Title": "Revision for Writing About Policy and Politics",
       "Section": null,
@@ -2073,21 +2129,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-820M-A-Fall 1",
-      "Course No": "DPI-820M",
-      "Title": "Policy Memo Writing for Decision Makers",
-      "Section": "A",
-      "Credits": "2.00",
-      "Term": "Fall 1",
-      "Faculty": "Lauren Brodsky",
-      "Class Day": "T/Th",
-      "Class Time": "1:15 PM-2:30 PM",
-      "Review Day": null,
-      "Review Room": null,
-      "Review Time": null
-    },
-    {
-      "Course ID": "DPI-820M-B-Fall 2",
+      "Course ID": "DPI-820M-Fall 2-B",
       "Course No": "DPI-820M",
       "Title": "Policy Memo Writing for Decision Makers",
       "Section": "B",
@@ -2101,7 +2143,21 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-820M-C-Spring 2",
+      "Course ID": "DPI-820M-Fall 1-A",
+      "Course No": "DPI-820M",
+      "Title": "Policy Memo Writing for Decision Makers",
+      "Section": "A",
+      "Credits": "2.00",
+      "Term": "Fall 1",
+      "Faculty": "Lauren Brodsky",
+      "Class Day": "T/Th",
+      "Class Time": "1:15 PM-2:30 PM",
+      "Review Day": null,
+      "Review Room": null,
+      "Review Time": null
+    },
+    {
+      "Course ID": "DPI-820M-Spring 2-C",
       "Course No": "DPI-820M",
       "Title": "Policy Memo Writing for Decision Makers",
       "Section": "C",
@@ -2115,7 +2171,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-821M--Spring 1",
+      "Course ID": "DPI-821M-Spring 1-",
       "Course No": "DPI-821M",
       "Title": "Long-Form Policy Writing for Decision Makers",
       "Section": null,
@@ -2129,7 +2185,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-825M--Fall 2",
+      "Course ID": "DPI-825M-Fall 2-",
       "Course No": "DPI-825M",
       "Title": "Policy Presentations for Decision Makers",
       "Section": null,
@@ -2143,21 +2199,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-830-A-Fall",
-      "Course No": "DPI-830",
-      "Title": "Column and Opinion Writing",
-      "Section": "A",
-      "Credits": "4.00",
-      "Term": "Fall",
-      "Faculty": "Jeffrey Seglin",
-      "Class Day": "T/Th",
-      "Class Time": "10:15 AM-11:30 AM",
-      "Review Day": null,
-      "Review Room": null,
-      "Review Time": null
-    },
-    {
-      "Course ID": "DPI-830-B-Spring",
+      "Course ID": "DPI-830-Spring-B",
       "Course No": "DPI-830",
       "Title": "Column and Opinion Writing",
       "Section": "B",
@@ -2171,13 +2213,27 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-831M--Fall 2",
+      "Course ID": "DPI-830-Fall-A",
+      "Course No": "DPI-830",
+      "Title": "Column and Opinion Writing",
+      "Section": "A",
+      "Credits": "4.00",
+      "Term": "Fall",
+      "Faculty": "Jeffrey Seglin",
+      "Class Day": "T/Th",
+      "Class Time": "10:15 AM-11:30 AM",
+      "Review Day": null,
+      "Review Room": null,
+      "Review Time": null
+    },
+    {
+      "Course ID": "DPI-831M-Fall 2-",
       "Course No": "DPI-831M",
       "Title": "Op-Ed Writing",
       "Section": null,
       "Credits": "2.00",
       "Term": "Fall 2",
-      "Faculty": "Joshua Burek",
+      "Faculty": "Josh Burek",
       "Class Day": "T/Th",
       "Class Time": "8:45 AM-10:00 AM",
       "Review Day": null,
@@ -2185,21 +2241,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-835M-A-Fall 1",
-      "Course No": "DPI-835M",
-      "Title": "Speechwriting",
-      "Section": "A",
-      "Credits": "2.00",
-      "Term": "Fall 1",
-      "Faculty": "Stephen Krupin",
-      "Class Day": "M",
-      "Class Time": "4:15 PM-7:00 PM",
-      "Review Day": null,
-      "Review Room": null,
-      "Review Time": null
-    },
-    {
-      "Course ID": "DPI-835M-B-Spring 2",
+      "Course ID": "DPI-835M-Spring 2-B",
       "Course No": "DPI-835M",
       "Title": "Speechwriting",
       "Section": "B",
@@ -2213,7 +2255,21 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-840M--Spring 2",
+      "Course ID": "DPI-835M-Fall 1-A",
+      "Course No": "DPI-835M",
+      "Title": "Speechwriting",
+      "Section": "A",
+      "Credits": "2.00",
+      "Term": "Fall 1",
+      "Faculty": "Stephen Krupin",
+      "Class Day": "M",
+      "Class Time": "4:15 PM-7:00 PM",
+      "Review Day": null,
+      "Review Room": null,
+      "Review Time": null
+    },
+    {
+      "Course ID": "DPI-840M-Spring 2-",
       "Course No": "DPI-840M",
       "Title": "Analytical Writing for Policy Journals",
       "Section": null,
@@ -2227,13 +2283,13 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "DPI-892--Fall",
+      "Course ID": "DPI-892-Fall-",
       "Course No": "DPI-892",
       "Title": "Strategic Communications for Policy Change: Practical Strategies for Influencing a Better World",
       "Section": null,
       "Credits": "4.00",
       "Term": "Fall",
-      "Faculty": "Andrew Burness",
+      "Faculty": "Andy Burness",
       "Class Day": "W",
       "Class Time": "4:15 PM-7:00 PM",
       "Review Day": null,
@@ -2241,7 +2297,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "IGA-100--Spring",
+      "Course ID": "IGA-100-Spring-",
       "Course No": "IGA-100",
       "Title": "International and Global Affairs:Concepts and Applications",
       "Section": null,
@@ -2255,7 +2311,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "IGA-103--Fall",
+      "Course ID": "IGA-103-Fall-",
       "Course No": "IGA-103",
       "Title": "Global Governance",
       "Section": null,
@@ -2269,13 +2325,27 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "IGA-107M--Fall 1",
+      "Course ID": "IGA-107M-Fall 1-",
       "Course No": "IGA-107M",
       "Title": "Global Justice",
       "Section": null,
       "Credits": "2.00",
       "Term": "Fall 1",
       "Faculty": "Kathryn Sikkink",
+      "Class Day": "M/W",
+      "Class Time": "2:45 PM-4:00 PM",
+      "Review Day": null,
+      "Review Room": null,
+      "Review Time": null
+    },
+    {
+      "Course ID": "IGA-109-Spring-",
+      "Course No": "IGA-109",
+      "Title": "Negotiation and Diplomacy",
+      "Section": null,
+      "Credits": "4.00",
+      "Term": "Spring",
+      "Faculty": "R. Nicholas Burns, James Sebenius, Robert Mnookin",
       "Class Day": null,
       "Class Time": null,
       "Review Day": null,
@@ -2283,7 +2353,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "IGA-112--Fall",
+      "Course ID": "IGA-112-Fall-",
       "Course No": "IGA-112",
       "Title": "The Politics and Ethics of Statecraft",
       "Section": null,
@@ -2297,21 +2367,21 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "IGA-116--Fall",
+      "Course ID": "IGA-116-Spring-",
       "Course No": "IGA-116",
       "Title": "Great Power Competition in the International System",
       "Section": null,
       "Credits": "4.00",
-      "Term": "Fall",
+      "Term": "Spring",
       "Faculty": "R. Nicholas Burns",
-      "Class Day": "M/W",
-      "Class Time": "8:45 AM-10:00 AM",
+      "Class Day": null,
+      "Class Time": null,
       "Review Day": null,
       "Review Room": null,
       "Review Time": null
     },
     {
-      "Course ID": "IGA-121--Spring",
+      "Course ID": "IGA-121-Spring-",
       "Course No": "IGA-121",
       "Title": "Religion and World Politics: Connections and Collisions",
       "Section": null,
@@ -2325,25 +2395,25 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "IGA-145M--Fall 2",
+      "Course ID": "IGA-145M-Fall 2-",
       "Course No": "IGA-145M",
       "Title": "Human Security: People-Centered Global Policy",
       "Section": null,
       "Credits": "2.00",
       "Term": "Fall 2",
       "Faculty": "Kathryn Sikkink",
-      "Class Day": null,
-      "Class Time": null,
+      "Class Day": "M/W",
+      "Class Time": "2:45 PM-4:00 PM",
       "Review Day": null,
       "Review Room": null,
       "Review Time": null
     },
     {
-      "Course ID": "IGA-150Y--Year",
+      "Course ID": "IGA-150Y-Year-",
       "Course No": "IGA-150Y",
-      "Title": "Seminar: International and Global Affairs (spring)",
+      "Title": "Seminar: International and Global Affairs",
       "Section": null,
-      "Credits": "2.00",
+      "Credits": "4.00",
       "Term": "Year",
       "Faculty": "Matthew Bunn",
       "Class Day": "Th",
@@ -2353,7 +2423,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "IGA-165M--Spring 1",
+      "Course ID": "IGA-165M-Spring 1-",
       "Course No": "IGA-165M",
       "Title": "Corporate Responsibility and New Governance Models",
       "Section": null,
@@ -2367,7 +2437,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "IGA-170M--Spring 2",
+      "Course ID": "IGA-170M-Spring 2-",
       "Course No": "IGA-170M",
       "Title": "Realism in International Relations",
       "Section": null,
@@ -2381,7 +2451,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "IGA-211--Fall",
+      "Course ID": "IGA-211-Fall-",
       "Course No": "IGA-211",
       "Title": "Central Challenges of American National Security, Strategy, and the Press",
       "Section": null,
@@ -2395,7 +2465,21 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "IGA-218M--January",
+      "Course ID": "IGA-213-Fall-",
+      "Course No": "IGA-213",
+      "Title": "The Economics of National Security Seminar",
+      "Section": null,
+      "Credits": "4.00",
+      "Term": "Fall",
+      "Faculty": "Martin Feldstein",
+      "Class Day": "T",
+      "Class Time": "6:00 PM-6:59 PM",
+      "Review Day": null,
+      "Review Room": null,
+      "Review Time": null
+    },
+    {
+      "Course ID": "IGA-218M-January-",
       "Course No": "IGA-218M",
       "Title": "Inclusive Security",
       "Section": null,
@@ -2409,7 +2493,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "IGA-219M--Fall 2",
+      "Course ID": "IGA-219M-Fall 2-",
       "Course No": "IGA-219M",
       "Title": "What's Wrong with U.S. Foreign Policy?",
       "Section": null,
@@ -2423,7 +2507,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "IGA-220--Spring",
+      "Course ID": "IGA-220-Spring-",
       "Course No": "IGA-220",
       "Title": "The Politics and Ethics of the Use of Force",
       "Section": null,
@@ -2437,21 +2521,21 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "IGA-224--Spring",
-      "Course No": "IGA-224",
+      "Course ID": "IGA-224M-Spring 2-",
+      "Course No": "IGA-224M",
       "Title": "Decision Making in Recent Crises",
       "Section": null,
-      "Credits": "4.00",
-      "Term": "Spring",
+      "Credits": "2.00",
+      "Term": "Spring 2",
       "Faculty": "Meghan O'Sullivan",
-      "Class Day": "M/W",
-      "Class Time": "11:45 AM-1:00 PM",
+      "Class Day": null,
+      "Class Time": null,
       "Review Day": null,
       "Review Room": null,
       "Review Time": null
     },
     {
-      "Course ID": "IGA-227--Spring",
+      "Course ID": "IGA-227-Spring-",
       "Course No": "IGA-227",
       "Title": "Insurgents, Terrorists, and Violence: Causes and Consequences of Civil War",
       "Section": null,
@@ -2465,7 +2549,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "IGA-229--Fall",
+      "Course ID": "IGA-229-Fall-",
       "Course No": "IGA-229",
       "Title": "Sex, Violence, and Global Politics",
       "Section": null,
@@ -2479,7 +2563,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "IGA-232--Fall",
+      "Course ID": "IGA-232-Fall-",
       "Course No": "IGA-232",
       "Title": "Controlling the World's Most Dangerous Weapons",
       "Section": null,
@@ -2493,7 +2577,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "IGA-236--Spring",
+      "Course ID": "IGA-236-Spring-",
       "Course No": "IGA-236",
       "Title": "Cybersecurity: Technology, Policy, and Law",
       "Section": null,
@@ -2507,21 +2591,21 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "IGA-237M--Fall 2",
+      "Course ID": "IGA-237M-Fall 2-",
       "Course No": "IGA-237M",
       "Title": "Future Issues in Cyber-Policy",
       "Section": null,
       "Credits": "2.00",
       "Term": "Fall 2",
       "Faculty": "Bruce Schneier",
-      "Class Day": null,
-      "Class Time": null,
+      "Class Day": "T",
+      "Class Time": "4:15 PM-7:00 PM",
       "Review Day": null,
       "Review Room": null,
       "Review Time": null
     },
     {
-      "Course ID": "IGA-238--Fall",
+      "Course ID": "IGA-238-Fall-",
       "Course No": "IGA-238",
       "Title": "Technology, Privacy, and the Trans-National Nature of the Internet",
       "Section": null,
@@ -2535,7 +2619,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "IGA-240--Fall",
+      "Course ID": "IGA-240-Fall-",
       "Course No": "IGA-240",
       "Title": "Cyber and Information Operations:  Technology, Policy, and the Law",
       "Section": null,
@@ -2549,9 +2633,9 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "IGA-305M--Fall 1",
+      "Course ID": "IGA-305M-Fall 1-",
       "Course No": "IGA-305M",
-      "Title": "Childhood, Adolescence, Youth, and International Human Rights",
+      "Title": "The Human Rights of Children and Youth as Citizens, Migrants and Refugees",
       "Section": null,
       "Credits": "2.00",
       "Term": "Fall 1",
@@ -2563,21 +2647,21 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "IGA-342M--Fall 2",
+      "Course ID": "IGA-342M-Fall 2-",
       "Course No": "IGA-342M",
       "Title": "Human Rights Dilemmas in Child Protection",
       "Section": null,
       "Credits": "2.00",
       "Term": "Fall 2",
       "Faculty": "Jacqueline Bhabha",
-      "Class Day": null,
-      "Class Time": null,
+      "Class Day": "T/Th",
+      "Class Time": "9:45 AM-11:15 AM",
       "Review Day": null,
       "Review Room": null,
       "Review Time": null
     },
     {
-      "Course ID": "IGA-344M--January",
+      "Course ID": "IGA-344M-January-",
       "Course No": "IGA-344M",
       "Title": "International Perspectives on Justice for Children",
       "Section": null,
@@ -2591,7 +2675,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "IGA-347--Spring",
+      "Course ID": "IGA-347-Spring-",
       "Course No": "IGA-347",
       "Title": "Human Rights and National Security:  The Case of Torture",
       "Section": null,
@@ -2605,7 +2689,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "IGA-351M--Spring 2",
+      "Course ID": "IGA-351M-Spring 2-",
       "Course No": "IGA-351M",
       "Title": "Human Trafficking and Modern Slavery",
       "Section": null,
@@ -2619,7 +2703,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "IGA-353M--January",
+      "Course ID": "IGA-353M-January-",
       "Course No": "IGA-353M",
       "Title": "Middle East Field Study Course:  Humanitarian Negotiations on the Frontlines",
       "Section": null,
@@ -2633,13 +2717,13 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "IGA-367M--January",
+      "Course ID": "IGA-367M-January-",
       "Course No": "IGA-367M",
       "Title": "Preventing Mass Atrocities:  The Security Council and the International Criminal Court",
       "Section": null,
       "Credits": "2.00",
       "Term": "January",
-      "Faculty": "Luis Moreno Ocampo, Kathryn Sikkink",
+      "Faculty": "Luis Moreno Ocampo",
       "Class Day": null,
       "Class Time": null,
       "Review Day": null,
@@ -2647,7 +2731,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "IGA-380M--January",
+      "Course ID": "IGA-380M-January-",
       "Course No": "IGA-380M",
       "Title": "Human Rights Advocacy Using Video, Social Media, and Participatory Media",
       "Section": null,
@@ -2661,21 +2745,21 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "IGA-385--Fall",
+      "Course ID": "IGA-385-Fall-",
       "Course No": "IGA-385",
       "Title": "Strategizing for Human Rights:  Moving from Ideals to Practice",
       "Section": null,
       "Credits": "4.00",
       "Term": "Fall",
       "Faculty": "Douglas Johnson",
-      "Class Day": null,
-      "Class Time": null,
+      "Class Day": "T/Th",
+      "Class Time": "1:15 PM-2:30 PM",
       "Review Day": null,
       "Review Room": null,
       "Review Time": null
     },
     {
-      "Course ID": "IGA-388--Spring",
+      "Course ID": "IGA-388-Spring-",
       "Course No": "IGA-388",
       "Title": "Nonviolent Resistance in the Age of Authoritarians",
       "Section": null,
@@ -2689,7 +2773,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "IGA-411--Fall",
+      "Course ID": "IGA-411-Fall-",
       "Course No": "IGA-411",
       "Title": "The Energy-Climate Challenge",
       "Section": null,
@@ -2703,12 +2787,12 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "IGA-412--Fall",
-      "Course No": "IGA-412",
+      "Course ID": "IGA-412M-Fall 1-",
+      "Course No": "IGA-412M",
       "Title": "The Geopolitics of Energy",
       "Section": null,
-      "Credits": "4.00",
-      "Term": "Fall",
+      "Credits": "2.00",
+      "Term": "Fall 1",
       "Faculty": "Meghan O'Sullivan",
       "Class Day": "M/W",
       "Class Time": "11:45 AM-1:00 PM",
@@ -2717,7 +2801,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "IGA-422--Fall",
+      "Course ID": "IGA-422-Fall-",
       "Course No": "IGA-422",
       "Title": "Global Food Politics and Policy",
       "Section": null,
@@ -2731,7 +2815,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "IGA-436--Spring",
+      "Course ID": "IGA-436-Spring-",
       "Course No": "IGA-436",
       "Title": "Water Resources Development and Management: Technology, Economics, Institutions",
       "Section": null,
@@ -2745,7 +2829,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "IGA-451M--Spring 1",
+      "Course ID": "IGA-451M-Spring 1-",
       "Course No": "IGA-451M",
       "Title": "Controversies in Climate, Energy, and the Media: Improving Public Communication",
       "Section": null,
@@ -2759,7 +2843,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "IGA-457M--Spring 2",
+      "Course ID": "IGA-457M-Spring 2-",
       "Course No": "IGA-457M",
       "Title": "International Climate Change Policy",
       "Section": null,
@@ -2773,7 +2857,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "IGA-507--Fall",
+      "Course ID": "IGA-507-Fall-",
       "Course No": "IGA-507",
       "Title": "Science and Technology in Domestic and International Policy",
       "Section": null,
@@ -2787,7 +2871,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "IGA-513--Fall",
+      "Course ID": "IGA-513-Fall-",
       "Course No": "IGA-513",
       "Title": "Science, Power, and Politics",
       "Section": null,
@@ -2801,7 +2885,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "IGA-515--Spring",
+      "Course ID": "IGA-515-Spring-",
       "Course No": "IGA-515",
       "Title": "Bioethics, Law, and the Life Sciences",
       "Section": null,
@@ -2815,7 +2899,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "IGA-523--Fall",
+      "Course ID": "IGA-523-Fall-",
       "Course No": "IGA-523",
       "Title": "Innovation for Global Development",
       "Section": null,
@@ -2829,7 +2913,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "IGA-526--Spring",
+      "Course ID": "IGA-526-Spring-",
       "Course No": "IGA-526",
       "Title": "Governing Transformative Technology",
       "Section": null,
@@ -2843,7 +2927,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "IGA-528--Spring",
+      "Course ID": "IGA-528-Spring-",
       "Course No": "IGA-528",
       "Title": "Technology and Policy",
       "Section": null,
@@ -2857,7 +2941,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "IGA-615--Fall",
+      "Course ID": "IGA-615-Fall-",
       "Course No": "IGA-615",
       "Title": "Protecting the Homeland(s): The Challenges of Domestic Security",
       "Section": null,
@@ -2871,21 +2955,21 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "IGA-662--Spring",
+      "Course ID": "IGA-662-Spring-",
       "Course No": "IGA-662",
       "Title": "The Political Economy of the EU: An International Political Economy Perspective",
       "Section": null,
       "Credits": "4.00",
       "Term": "Spring",
       "Faculty": null,
-      "Class Day": null,
-      "Class Time": null,
+      "Class Day": "T/Th",
+      "Class Time": "1:15 PM-2:30 PM",
       "Review Day": null,
       "Review Room": null,
       "Review Time": null
     },
     {
-      "Course ID": "IGA-685--Fall",
+      "Course ID": "IGA-685-Fall-",
       "Course No": "IGA-685",
       "Title": "Negotiating U.S. Interests in an Evolving Asia Pacific",
       "Section": null,
@@ -2899,11 +2983,11 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "IGA-956Y--Year",
+      "Course ID": "IGA-956Y-Year-",
       "Course No": "IGA-956Y",
-      "Title": "Science, Technology, and Society:  Research Seminar (spring)",
+      "Title": "Science, Technology, and Society:  Research Seminar",
       "Section": null,
-      "Credits": "2.00",
+      "Credits": "4.00",
       "Term": "Year",
       "Faculty": "Sheila Jasanoff",
       "Class Day": "T",
@@ -2913,21 +2997,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "MLD-102M-A-Fall 1",
-      "Course No": "MLD-102M",
-      "Title": "Getting Things Done: Management in a Development Context",
-      "Section": "A",
-      "Credits": "2.00",
-      "Term": "Fall 1",
-      "Faculty": "Matt Andrews",
-      "Class Day": "M/W",
-      "Class Time": "11:45 AM-1:00 PM",
-      "Review Day": null,
-      "Review Room": null,
-      "Review Time": null
-    },
-    {
-      "Course ID": "MLD-102M-B-Fall 1",
+      "Course ID": "MLD-102M-Fall 1-B",
       "Course No": "MLD-102M",
       "Title": "Getting Things Done: Management in a Development Context",
       "Section": "B",
@@ -2941,7 +3011,21 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "MLD-110--Fall",
+      "Course ID": "MLD-102M-Fall 1-A",
+      "Course No": "MLD-102M",
+      "Title": "Getting Things Done: Management in a Development Context",
+      "Section": "A",
+      "Credits": "2.00",
+      "Term": "Fall 1",
+      "Faculty": "Matt Andrews",
+      "Class Day": "M/W",
+      "Class Time": "11:45 AM-1:00 PM",
+      "Review Day": null,
+      "Review Room": null,
+      "Review Time": null
+    },
+    {
+      "Course ID": "MLD-110-Fall-",
       "Course No": "MLD-110",
       "Title": "Strategic Management for Public Purposes",
       "Section": null,
@@ -2955,7 +3039,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "MLD-115--Spring",
+      "Course ID": "MLD-115-Spring-",
       "Course No": "MLD-115",
       "Title": "Management Matters: Leadership, Strategy and Getting Things Done",
       "Section": null,
@@ -2969,21 +3053,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "MLD-201-A-Fall",
-      "Course No": "MLD-201",
-      "Title": "Exercising Leadership: The Politics of Change",
-      "Section": "A",
-      "Credits": "4.00",
-      "Term": "Fall",
-      "Faculty": "Farayi Chipungu",
-      "Class Day": "T/Th",
-      "Class Time": "10:15 AM-11:30 AM",
-      "Review Day": null,
-      "Review Room": null,
-      "Review Time": null
-    },
-    {
-      "Course ID": "MLD-201-B-Fall",
+      "Course ID": "MLD-201-Fall-B",
       "Course No": "MLD-201",
       "Title": "Exercising Leadership: The Politics of Change",
       "Section": "B",
@@ -2997,7 +3067,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "MLD-201-C-Spring",
+      "Course ID": "MLD-201-Spring-C",
       "Course No": "MLD-201",
       "Title": "Exercising Leadership: The Politics of Change",
       "Section": "C",
@@ -3011,21 +3081,49 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "MLD-220M-A-Fall 1",
+      "Course ID": "MLD-201-Fall-A",
+      "Course No": "MLD-201",
+      "Title": "Exercising Leadership: The Politics of Change",
+      "Section": "A",
+      "Credits": "4.00",
+      "Term": "Fall",
+      "Faculty": "Farayi Chipungu",
+      "Class Day": "T/Th",
+      "Class Time": "10:15 AM-11:30 AM",
+      "Review Day": null,
+      "Review Room": null,
+      "Review Time": null
+    },
+    {
+      "Course ID": "MLD-220M-Fall 1-C",
       "Course No": "MLD-220M",
       "Title": "Fundamentals of Negotiation Analysis",
-      "Section": "A",
+      "Section": "C",
       "Credits": "2.00",
       "Term": "Fall 1",
       "Faculty": "Brian Mandell",
       "Class Day": "T/Th",
-      "Class Time": "10:15 AM-11:30 AM",
+      "Class Time": "1:15 PM-2:30 PM",
       "Review Day": "T",
       "Review Room": null,
-      "Review Time": "4:15 PM-8:00 PM"
+      "Review Time": "4:00 PM-8:00 PM"
     },
     {
-      "Course ID": "MLD-220M-B-Fall 1",
+      "Course ID": "MLD-220M-Fall 1-D",
+      "Course No": "MLD-220M",
+      "Title": "Fundamentals of Negotiation Analysis",
+      "Section": "D",
+      "Credits": "2.00",
+      "Term": "Fall 1",
+      "Faculty": "Brian Mandell",
+      "Class Day": "M/W",
+      "Class Time": "2:45 PM-4:00 PM",
+      "Review Day": "T",
+      "Review Room": null,
+      "Review Time": "4:00 PM-8:00 PM"
+    },
+    {
+      "Course ID": "MLD-220M-Fall 1-B",
       "Course No": "MLD-220M",
       "Title": "Fundamentals of Negotiation Analysis",
       "Section": "B",
@@ -3039,49 +3137,35 @@ var data = {
       "Review Time": "4:00 PM-8:00 PM"
     },
     {
-      "Course ID": "MLD-220M-C-Fall 1",
+      "Course ID": "MLD-220M-Fall 1-A",
       "Course No": "MLD-220M",
       "Title": "Fundamentals of Negotiation Analysis",
-      "Section": "C",
+      "Section": "A",
       "Credits": "2.00",
       "Term": "Fall 1",
       "Faculty": "Brian Mandell",
-      "Class Day": null,
-      "Class Time": null,
-      "Review Day": "T/Th",
-      "Review Room": "Belfer 200 Starr Aud (HKS)",
-      "Review Time": "1:15 PM-2:30 PM"
+      "Class Day": "T/Th",
+      "Class Time": "10:15 AM-11:30 AM",
+      "Review Day": "T",
+      "Review Room": null,
+      "Review Time": "4:15 PM-8:00 PM"
     },
     {
-      "Course ID": "MLD-220M-D-Fall 1",
-      "Course No": "MLD-220M",
-      "Title": "Fundamentals of Negotiation Analysis",
-      "Section": "D",
-      "Credits": "2.00",
-      "Term": "Fall 1",
-      "Faculty": "Brian Mandell",
-      "Class Day": null,
-      "Class Time": null,
-      "Review Day": "M/W",
-      "Review Room": "Belfer 200 Starr Aud (HKS)",
-      "Review Time": "2:45 PM-4:00 PM"
-    },
-    {
-      "Course ID": "MLD-222M--Fall 1",
+      "Course ID": "MLD-222M-Fall 1-",
       "Course No": "MLD-222M",
       "Title": "Negotiation Analysis",
       "Section": null,
       "Credits": "2.00",
       "Term": "Fall 1",
       "Faculty": "Kessely Hong",
-      "Class Day": null,
-      "Class Time": null,
-      "Review Day": "T/Th",
-      "Review Room": "Littauer Bldg L230 (HKS)",
-      "Review Time": "11:45 AM-1:00 PM"
+      "Class Day": "T/Th",
+      "Class Time": "11:45 AM-1:00 PM",
+      "Review Day": "W",
+      "Review Room": "Belfer 400 Land Hall (HKS)",
+      "Review Time": "4:15 PM-6:30 PM"
     },
     {
-      "Course ID": "MLD-223M--Fall 2",
+      "Course ID": "MLD-223M-Fall 2-",
       "Course No": "MLD-223M",
       "Title": "Negotiating Across Differences",
       "Section": null,
@@ -3095,21 +3179,21 @@ var data = {
       "Review Time": "4:15 PM-7:00 PM"
     },
     {
-      "Course ID": "MLD-224-A-Fall",
+      "Course ID": "MLD-224-Fall-A",
       "Course No": "MLD-224",
       "Title": "Behavioral Science of Negotiations",
       "Section": "A",
       "Credits": "4.00",
       "Term": "Fall",
       "Faculty": "Julia Minson",
-      "Class Day": null,
-      "Class Time": null,
-      "Review Day": "M/W",
+      "Class Day": "M/W",
+      "Class Time": "10:15 AM-11:30 AM",
+      "Review Day": "T",
       "Review Room": "1 Brattle Sq 401 (HKS)",
-      "Review Time": "10:15 AM-11:30 AM"
+      "Review Time": "4:15 PM-6:00 PM"
     },
     {
-      "Course ID": "MLD-224-B-Fall",
+      "Course ID": "MLD-224-Fall-B",
       "Course No": "MLD-224",
       "Title": "Behavioral Science of Negotiations",
       "Section": "B",
@@ -3123,7 +3207,7 @@ var data = {
       "Review Time": "6:15 PM-8:00 PM"
     },
     {
-      "Course ID": "MLD-280--January",
+      "Course ID": "MLD-280-January-",
       "Course No": "MLD-280",
       "Title": "Advanced Workshop in Multiparty Negotiation and Conflict Resolution",
       "Section": null,
@@ -3137,7 +3221,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "MLD-301--Spring",
+      "Course ID": "MLD-301-Spring-",
       "Course No": "MLD-301",
       "Title": "Leadership Decision Making",
       "Section": null,
@@ -3151,35 +3235,35 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "MLD-304-A-Spring",
+      "Course ID": "MLD-304-Spring-A",
       "Course No": "MLD-304",
       "Title": "Science of Behavior Change",
       "Section": "A",
       "Credits": "4.00",
       "Term": "Spring",
       "Faculty": "Todd Rogers",
-      "Class Day": "M/W",
-      "Class Time": "10:15 AM-11:30 AM",
+      "Class Day": "T/Th",
+      "Class Time": "8:45 AM-10:00 AM",
       "Review Day": null,
       "Review Room": null,
       "Review Time": null
     },
     {
-      "Course ID": "MLD-304-B-Spring",
+      "Course ID": "MLD-304-Spring-B",
       "Course No": "MLD-304",
       "Title": "Science of Behavior Change",
       "Section": "B",
       "Credits": "4.00",
       "Term": "Spring",
       "Faculty": "Todd Rogers",
-      "Class Day": "M/W",
+      "Class Day": "T/Th",
       "Class Time": "1:15 PM-2:30 PM",
       "Review Day": null,
       "Review Room": null,
       "Review Time": null
     },
     {
-      "Course ID": "MLD-310--Fall",
+      "Course ID": "MLD-310-Fall-",
       "Course No": "MLD-310",
       "Title": "Behavioral Science for Inclusive Organizations",
       "Section": null,
@@ -3187,13 +3271,13 @@ var data = {
       "Term": "Fall",
       "Faculty": "Iris Bohnet",
       "Class Day": "M",
-      "Class Time": "4:15 PM-6:00 PM",
+      "Class Time": "4:15 PM-7:00 PM",
       "Review Day": null,
       "Review Room": null,
       "Review Time": null
     },
     {
-      "Course ID": "MLD-320M--Spring 1",
+      "Course ID": "MLD-320M-Spring 1-",
       "Course No": "MLD-320M",
       "Title": "The Art of Leading in a Diverse World:  Skills, Insights, and Best Practices",
       "Section": null,
@@ -3207,7 +3291,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "MLD-325--Fall",
+      "Course ID": "MLD-325-Fall-",
       "Course No": "MLD-325",
       "Title": "Becoming a Leader",
       "Section": null,
@@ -3221,11 +3305,11 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "MLD-335Y--Year",
+      "Course ID": "MLD-335Y-Year-",
       "Course No": "MLD-335Y",
-      "Title": "United Kingdom Immersive Field Course: Behavioral Insights (spring)",
+      "Title": "United Kingdom Immersive Field Course: Behavioral Insights",
       "Section": null,
-      "Credits": "2.00",
+      "Credits": "4.00",
       "Term": "Year",
       "Faculty": "Michael Luca",
       "Class Day": null,
@@ -3235,11 +3319,11 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "MLD-337Y--Year",
+      "Course ID": "MLD-337Y-Year-",
       "Course No": "MLD-337Y",
-      "Title": "EC Field Course - US: Behavioral Insights (spring)",
+      "Title": "EC Field Course - US: Behavioral Insights",
       "Section": null,
-      "Credits": "2.00",
+      "Credits": "4.00",
       "Term": "Year",
       "Faculty": "Max Bazerman",
       "Class Day": null,
@@ -3249,7 +3333,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "MLD-340--Fall",
+      "Course ID": "MLD-340-Fall-",
       "Course No": "MLD-340",
       "Title": "Power and Influence",
       "Section": null,
@@ -3263,7 +3347,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "MLD-342--January",
+      "Course ID": "MLD-342-January-",
       "Course No": "MLD-342",
       "Title": "Persuasion: The Science and Art of Effective Influence",
       "Section": null,
@@ -3277,7 +3361,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "MLD-352--Fall",
+      "Course ID": "MLD-352-Fall-",
       "Course No": "MLD-352",
       "Title": "The Leadership System: Leaders, Followers, Context",
       "Section": null,
@@ -3291,7 +3375,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "MLD-355M--Fall 1",
+      "Course ID": "MLD-355M-Fall 1-",
       "Course No": "MLD-355M",
       "Title": "Public Narrative: Self, Us, Now",
       "Section": null,
@@ -3305,7 +3389,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "MLD-356M--Fall 2",
+      "Course ID": "MLD-356M-Fall 2-",
       "Course No": "MLD-356M",
       "Title": "Public Narrative: Loss, Difference, Power, and Change",
       "Section": null,
@@ -3319,7 +3403,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "MLD-364--January",
+      "Course ID": "MLD-364-January-",
       "Course No": "MLD-364",
       "Title": "Leadership from the Inside Out:  The Personal Capacity to Lead and Stay Alive",
       "Section": null,
@@ -3333,7 +3417,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "MLD-377--Spring",
+      "Course ID": "MLD-377-Spring-",
       "Course No": "MLD-377",
       "Title": "Organizing:  People, Power, Change",
       "Section": null,
@@ -3347,7 +3431,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "MLD-381--Spring",
+      "Course ID": "MLD-381-Spring-",
       "Course No": "MLD-381",
       "Title": "Mitigating and Managing a Crisis",
       "Section": null,
@@ -3361,7 +3445,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "MLD-401M--Fall 1",
+      "Course ID": "MLD-401M-Fall 1-",
       "Course No": "MLD-401M",
       "Title": "Financial Management in Public and Nonprofit Organizations",
       "Section": null,
@@ -3375,7 +3459,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "MLD-410--Spring",
+      "Course ID": "MLD-410-Spring-",
       "Course No": "MLD-410",
       "Title": "State and Local Financial Policy",
       "Section": null,
@@ -3389,7 +3473,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "MLD-411M--Fall 2",
+      "Course ID": "MLD-411M-Fall 2-",
       "Course No": "MLD-411M",
       "Title": "Introduction to Budgeting and Financial Management",
       "Section": null,
@@ -3403,21 +3487,21 @@ var data = {
       "Review Time": "4:15 PM-5:45 PM"
     },
     {
-      "Course ID": "MLD-412--Spring",
+      "Course ID": "MLD-412-Spring-",
       "Course No": "MLD-412",
       "Title": "Greater Boston Applied Field Lab: Advanced Budgeting, Financial Management and Operations",
       "Section": null,
       "Credits": "4.00",
       "Term": "Spring",
       "Faculty": "Linda Bilmes",
-      "Class Day": null,
-      "Class Time": null,
-      "Review Day": "M/W",
+      "Class Day": "M/W",
+      "Class Time": "4:15 PM-7:00 PM",
+      "Review Day": null,
       "Review Room": null,
-      "Review Time": "4:15 PM-7:00 PM"
+      "Review Time": null
     },
     {
-      "Course ID": "MLD-420M--January",
+      "Course ID": "MLD-420M-January-",
       "Course No": "MLD-420M",
       "Title": "Federal Budget Policy",
       "Section": null,
@@ -3431,7 +3515,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "MLD-421M--Spring",
+      "Course ID": "MLD-421M-Spring-",
       "Course No": "MLD-421M",
       "Title": "Federal Budget Policy – Research Paper",
       "Section": null,
@@ -3445,7 +3529,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "MLD-427-A-Fall",
+      "Course ID": "MLD-427-Fall-A",
       "Course No": "MLD-427",
       "Title": "Managing Financial Resources in Non Profit Organizations",
       "Section": "A",
@@ -3459,7 +3543,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "MLD-427-B-Spring",
+      "Course ID": "MLD-427-Spring-B",
       "Course No": "MLD-427",
       "Title": "Managing Financial Resources in Non Profit Organizations",
       "Section": "B",
@@ -3473,21 +3557,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "MLD-500-A-Fall",
-      "Course No": "MLD-500",
-      "Title": "Maximizing Human Capital and Organizational Performance",
-      "Section": "A",
-      "Credits": "4.00",
-      "Term": "Fall",
-      "Faculty": "Robert Livingston",
-      "Class Day": "T/Th",
-      "Class Time": "11:45 AM-1:00 PM",
-      "Review Day": null,
-      "Review Room": null,
-      "Review Time": null
-    },
-    {
-      "Course ID": "MLD-500-B-Spring",
+      "Course ID": "MLD-500-Spring-B",
       "Course No": "MLD-500",
       "Title": "Maximizing Human Capital and Organizational Performance",
       "Section": "B",
@@ -3501,9 +3571,23 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "MLD-501M-A-Fall 2",
+      "Course ID": "MLD-500-Fall-A",
+      "Course No": "MLD-500",
+      "Title": "Maximizing Human Capital and Organizational Performance",
+      "Section": "A",
+      "Credits": "4.00",
+      "Term": "Fall",
+      "Faculty": "Robert Livingston",
+      "Class Day": "T/Th",
+      "Class Time": "11:45 AM-1:00 PM",
+      "Review Day": null,
+      "Review Room": null,
+      "Review Time": null
+    },
+    {
+      "Course ID": "MLD-501M-Fall 2-A",
       "Course No": "MLD-501M",
-      "Title": "Fundamentals of Leadership Across Difference",
+      "Title": "Conflict and Collaboration: Intra- and Inter-group Dynamics",
       "Section": "A",
       "Credits": "2.00",
       "Term": "Fall 2",
@@ -3515,37 +3599,9 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "MLD-501M-B-Fall 2",
+      "Course ID": "MLD-501M-Fall 2-D",
       "Course No": "MLD-501M",
-      "Title": "Fundamentals of Leadership Across Difference",
-      "Section": "B",
-      "Credits": "2.00",
-      "Term": "Fall 2",
-      "Faculty": "Robert Wilkinson",
-      "Class Day": "M/W",
-      "Class Time": "11:45 AM-1:00 PM",
-      "Review Day": null,
-      "Review Room": null,
-      "Review Time": null
-    },
-    {
-      "Course ID": "MLD-501M-C-Fall 2",
-      "Course No": "MLD-501M",
-      "Title": "Fundamentals of Leadership Across Difference",
-      "Section": "C",
-      "Credits": "2.00",
-      "Term": "Fall 2",
-      "Faculty": "Hannah Riley Bowles",
-      "Class Day": "T/Th",
-      "Class Time": "1:15 PM-2:30 PM",
-      "Review Day": null,
-      "Review Room": null,
-      "Review Time": null
-    },
-    {
-      "Course ID": "MLD-501M-D-Fall 2",
-      "Course No": "MLD-501M",
-      "Title": "Fundamentals of Leadership Across Difference",
+      "Title": "Conflict and Collaboration: Intra- and Inter-group Dynamics",
       "Section": "D",
       "Credits": "2.00",
       "Term": "Fall 2",
@@ -3557,7 +3613,35 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "MLD-502--Spring",
+      "Course ID": "MLD-501M-Fall 2-C",
+      "Course No": "MLD-501M",
+      "Title": "Conflict and Collaboration: Intra- and Inter-group Dynamics",
+      "Section": "C",
+      "Credits": "2.00",
+      "Term": "Fall 2",
+      "Faculty": "Hannah Riley Bowles",
+      "Class Day": "T/Th",
+      "Class Time": "1:15 PM-2:30 PM",
+      "Review Day": null,
+      "Review Room": null,
+      "Review Time": null
+    },
+    {
+      "Course ID": "MLD-501M-Fall 2-B",
+      "Course No": "MLD-501M",
+      "Title": "Conflict and Collaboration: Intra- and Inter-group Dynamics",
+      "Section": "B",
+      "Credits": "2.00",
+      "Term": "Fall 2",
+      "Faculty": "Robert Wilkinson",
+      "Class Day": "M/W",
+      "Class Time": "11:45 AM-1:00 PM",
+      "Review Day": null,
+      "Review Room": null,
+      "Review Time": null
+    },
+    {
+      "Course ID": "MLD-502-Spring-",
       "Course No": "MLD-502",
       "Title": "Developing People: Personal and Systemic Capacity Building",
       "Section": null,
@@ -3571,7 +3655,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "MLD-601--Fall",
+      "Course ID": "MLD-601-Fall-",
       "Course No": "MLD-601",
       "Title": "Operations Management",
       "Section": null,
@@ -3585,7 +3669,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "MLD-602--Spring",
+      "Course ID": "MLD-602-Spring-",
       "Course No": "MLD-602",
       "Title": "Performance Leadership: Producing Results in Public and Nonprofit Agencies",
       "Section": null,
@@ -3599,21 +3683,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "MLD-603M--Spring 1",
-      "Course No": "MLD-603M",
-      "Title": "Operations Management for Improving Public Services",
-      "Section": null,
-      "Credits": "2.00",
-      "Term": "Spring 1",
-      "Faculty": "Soroush Saghafian",
-      "Class Day": "T/Th",
-      "Class Time": "10:15 AM-11:30 AM",
-      "Review Day": null,
-      "Review Room": null,
-      "Review Time": null
-    },
-    {
-      "Course ID": "MLD-610--Fall",
+      "Course ID": "MLD-610-Fall-",
       "Course No": "MLD-610",
       "Title": "Generating and Using Evidence to Improve the Management of Your Organization",
       "Section": null,
@@ -3627,7 +3697,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "MLD-617M--Spring 2",
+      "Course ID": "MLD-617M-Spring 2-",
       "Course No": "MLD-617M",
       "Title": "Effective Implementation: Learning from Effective Implementers",
       "Section": null,
@@ -3641,7 +3711,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "MLD-620M--Spring 2",
+      "Course ID": "MLD-620M-Spring 2-",
       "Course No": "MLD-620M",
       "Title": "Urban Innovation:  Concepts and Practices",
       "Section": null,
@@ -3655,7 +3725,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "MLD-621--Spring",
+      "Course ID": "MLD-621-Spring-",
       "Course No": "MLD-621",
       "Title": "Innovation Field Lab: Public Problem Solving in Massachusetts Cities",
       "Section": null,
@@ -3669,7 +3739,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "MLD-630M--Fall 2",
+      "Course ID": "MLD-630M-Fall 2-",
       "Course No": "MLD-630M",
       "Title": "Government Turnarounds",
       "Section": null,
@@ -3683,7 +3753,21 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "MLD-829M--Fall 2",
+      "Course ID": "MLD-635M-Spring 1-",
+      "Course No": "MLD-635M",
+      "Title": "Creating and Delivering Public Value: Performing and Innovating in Government",
+      "Section": null,
+      "Credits": "2.00",
+      "Term": "Spring 1",
+      "Faculty": "Mark Moore",
+      "Class Day": null,
+      "Class Time": null,
+      "Review Day": null,
+      "Review Room": null,
+      "Review Time": null
+    },
+    {
+      "Course ID": "MLD-829M-Fall 2-",
       "Course No": "MLD-829M",
       "Title": "Fundamentals of Entrepreneurial Finance",
       "Section": null,
@@ -3697,7 +3781,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "MLD-830--Fall",
+      "Course ID": "MLD-830-Fall-",
       "Course No": "MLD-830",
       "Title": "Entrepreneurship and Innovation in the Private and Social Sectors",
       "Section": null,
@@ -3711,7 +3795,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "MLD-831--Spring",
+      "Course ID": "MLD-831-Spring-",
       "Course No": "MLD-831",
       "Title": "Entrepreneurship and Innovation in the Private and Social Sectors (Business Plan Workshop)",
       "Section": null,
@@ -3725,7 +3809,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "MLD-836M--Fall 1",
+      "Course ID": "MLD-836M-Fall 1-",
       "Course No": "MLD-836M",
       "Title": "Social Entrepreneurship/Social Enterprises 101:  How to Go from Start-Up to End Up",
       "Section": null,
@@ -3739,7 +3823,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "MLD-837--Spring",
+      "Course ID": "MLD-837-Spring-",
       "Course No": "MLD-837",
       "Title": "Social Entrepreneurship and Innovation Lab for US & Global Health",
       "Section": null,
@@ -3753,7 +3837,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "MLD-840--Spring",
+      "Course ID": "MLD-840-Spring-",
       "Course No": "MLD-840",
       "Title": "Entrepreneurial Finance",
       "Section": null,
@@ -3767,7 +3851,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "SUP-110--Spring",
+      "Course ID": "SUP-110-Spring-",
       "Course No": "SUP-110",
       "Title": "Social Safety Net Policy in the 21st Century",
       "Section": null,
@@ -3781,25 +3865,25 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "SUP-125--Fall",
+      "Course ID": "SUP-125-Fall-",
       "Course No": "SUP-125",
       "Title": "Public Economics: Designing Government Policy",
       "Section": null,
       "Credits": "4.00",
       "Term": "Fall",
       "Faculty": "Stefanie Stantcheva, Martin Feldstein",
-      "Class Day": null,
-      "Class Time": null,
+      "Class Day": "M/W",
+      "Class Time": "2:00 PM-3:30 PM",
       "Review Day": null,
       "Review Room": null,
       "Review Time": null
     },
     {
-      "Course ID": "SUP-150Y--Year",
+      "Course ID": "SUP-150Y-Year-",
       "Course No": "SUP-150Y",
-      "Title": "Seminar: Social and Urban Policy (spring)",
+      "Title": "Seminar: Social and Urban Policy",
       "Section": null,
-      "Credits": "2.00",
+      "Credits": "4.00",
       "Term": "Year",
       "Faculty": "Julie Boatright Wilson",
       "Class Day": "Th",
@@ -3809,7 +3893,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "SUP-204--Fall",
+      "Course ID": "SUP-204-Fall-",
       "Course No": "SUP-204",
       "Title": "Growth, Inequality, and the Income of Households",
       "Section": null,
@@ -3823,7 +3907,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "SUP-206--Spring",
+      "Course ID": "SUP-206-Spring-",
       "Course No": "SUP-206",
       "Title": "The Causes and Consequences of Inequality",
       "Section": null,
@@ -3837,7 +3921,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "SUP-207--Spring",
+      "Course ID": "SUP-207-Spring-",
       "Course No": "SUP-207",
       "Title": "Social Structure and Culture in the Study of Race and Urban Poverty",
       "Section": null,
@@ -3851,7 +3935,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "SUP-211--Spring",
+      "Course ID": "SUP-211-Spring-",
       "Course No": "SUP-211",
       "Title": "Institutional & Community-Based Strategies to Support Children & Strengthen Families",
       "Section": null,
@@ -3865,7 +3949,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "SUP-311--Fall",
+      "Course ID": "SUP-311-Fall-",
       "Course No": "SUP-311",
       "Title": "The Economic Impact of Immigration",
       "Section": null,
@@ -3879,7 +3963,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "SUP-321M--Spring 2",
+      "Course ID": "SUP-321M-Spring 2-",
       "Course No": "SUP-321M",
       "Title": "Designing Social Security Systems",
       "Section": null,
@@ -3893,7 +3977,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "SUP-322--Fall",
+      "Course ID": "SUP-322-Fall-",
       "Course No": "SUP-322",
       "Title": "Economics of Labor Market Policies",
       "Section": null,
@@ -3907,7 +3991,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "SUP-425M--January",
+      "Course ID": "SUP-425M-January-",
       "Course No": "SUP-425M",
       "Title": "Developing Effective School and Community Interventions for At-Risk Children",
       "Section": null,
@@ -3921,7 +4005,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "SUP-427--Spring",
+      "Course ID": "SUP-427-Spring-",
       "Course No": "SUP-427",
       "Title": "Analyzing Education Policy",
       "Section": null,
@@ -3935,21 +4019,21 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "SUP-447--Fall",
+      "Course ID": "SUP-447-Fall-",
       "Course No": "SUP-447",
       "Title": "The Politics of American Education",
       "Section": null,
       "Credits": "4.00",
       "Term": "Fall",
       "Faculty": "Paul Peterson",
-      "Class Day": "M/W",
+      "Class Day": "T/Th",
       "Class Time": "11:00 AM-11:59 AM",
       "Review Day": null,
       "Review Room": null,
       "Review Time": null
     },
     {
-      "Course ID": "SUP-448--Fall",
+      "Course ID": "SUP-448-Fall-",
       "Course No": "SUP-448",
       "Title": "The Political Economy of the School",
       "Section": null,
@@ -3963,7 +4047,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "SUP-449--Fall",
+      "Course ID": "SUP-449-Fall-",
       "Course No": "SUP-449",
       "Title": "Politics and Education Policy in the U.S.",
       "Section": null,
@@ -3977,7 +4061,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "SUP-450--Spring",
+      "Course ID": "SUP-450-Spring-",
       "Course No": "SUP-450",
       "Title": "The Consequences of Educational Policy Interventions in Developing Countries",
       "Section": null,
@@ -3991,7 +4075,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "SUP-470--Spring",
+      "Course ID": "SUP-470-Spring-",
       "Course No": "SUP-470",
       "Title": "Strategies and Policies for Narrowing Racial Achievement Gaps",
       "Section": null,
@@ -4005,7 +4089,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "SUP-490--Spring",
+      "Course ID": "SUP-490-Spring-",
       "Course No": "SUP-490",
       "Title": "Quantitative Methods for Improving Causal Inference in Education Research",
       "Section": null,
@@ -4019,7 +4103,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "SUP-500--Fall",
+      "Course ID": "SUP-500-Fall-",
       "Course No": "SUP-500",
       "Title": "Introduction to U.S. Health Care Policy",
       "Section": null,
@@ -4033,7 +4117,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "SUP-572--Fall",
+      "Course ID": "SUP-572-Fall-",
       "Course No": "SUP-572",
       "Title": "The Economics of Health Care Policy",
       "Section": null,
@@ -4047,7 +4131,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "SUP-575--Spring",
+      "Course ID": "SUP-575-Spring-",
       "Course No": "SUP-575",
       "Title": "Political Analysis and Strategy for U.S. Health Policy",
       "Section": null,
@@ -4055,13 +4139,13 @@ var data = {
       "Term": "Spring",
       "Faculty": "Robert Blendon",
       "Class Day": "M/W",
-      "Class Time": "4:15 PM-5:30 PM",
+      "Class Time": "4:15 PM-6:00 PM",
       "Review Day": null,
       "Review Room": null,
       "Review Time": null
     },
     {
-      "Course ID": "SUP-578--Spring",
+      "Course ID": "SUP-578-Spring-",
       "Course No": "SUP-578",
       "Title": "U.S. Healthcare Industry and Regulatory Policy",
       "Section": null,
@@ -4075,7 +4159,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "SUP-600--Fall",
+      "Course ID": "SUP-600-Fall-",
       "Course No": "SUP-600",
       "Title": "Policymaking in Urban Settings",
       "Section": null,
@@ -4089,7 +4173,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "SUP-601--Spring",
+      "Course ID": "SUP-601-Spring-",
       "Course No": "SUP-601",
       "Title": "Urban Politics, Planning, and Development",
       "Section": null,
@@ -4103,7 +4187,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "SUP-651--Fall",
+      "Course ID": "SUP-651-Fall-",
       "Course No": "SUP-651",
       "Title": "Transportation Policy and Planning",
       "Section": null,
@@ -4117,21 +4201,21 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "SUP-661--Fall",
+      "Course ID": "SUP-661-Fall-",
       "Course No": "SUP-661",
       "Title": "Housing and Urbanization in the United States",
       "Section": null,
       "Credits": "4.00",
       "Term": "Fall",
       "Faculty": "James Stockard, Jennifer Molinsky",
-      "Class Day": null,
-      "Class Time": null,
+      "Class Day": "W",
+      "Class Time": "2:00 PM-5:00 PM",
       "Review Day": null,
       "Review Room": null,
       "Review Time": null
     },
     {
-      "Course ID": "SUP-662--Spring",
+      "Course ID": "SUP-662-Spring-",
       "Course No": "SUP-662",
       "Title": "Housing and Urbanization in Global Cities",
       "Section": null,
@@ -4145,21 +4229,21 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "SUP-663--Fall",
+      "Course ID": "SUP-663-Fall-",
       "Course No": "SUP-663",
       "Title": "Land Use and Environmental Law",
       "Section": null,
       "Credits": "4.00",
       "Term": "Fall",
       "Faculty": "Jerold Kayden",
-      "Class Day": null,
-      "Class Time": null,
+      "Class Day": "M/W",
+      "Class Time": "11:30 AM-12:59 PM",
       "Review Day": null,
       "Review Room": null,
       "Review Time": null
     },
     {
-      "Course ID": "SUP-665--Fall",
+      "Course ID": "SUP-665-Fall-",
       "Course No": "SUP-665",
       "Title": "Real Estate Finance and Development Fundamentals for Public and Private Participants",
       "Section": null,
@@ -4173,7 +4257,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "SUP-666--Spring",
+      "Course ID": "SUP-666-Spring-",
       "Course No": "SUP-666",
       "Title": "Affordable and Mixed-Income Housing Development, Finance, and Management",
       "Section": null,
@@ -4187,7 +4271,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "SUP-668--Spring",
+      "Course ID": "SUP-668-Spring-",
       "Course No": "SUP-668",
       "Title": "Public and Private Development",
       "Section": null,
@@ -4201,7 +4285,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "SUP-670--Spring",
+      "Course ID": "SUP-670-Spring-",
       "Course No": "SUP-670",
       "Title": "U.S. Housing Markets, Problems and Policies",
       "Section": null,
@@ -4215,27 +4299,13 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "SUP-921--Fall",
+      "Course ID": "SUP-921-Fall-",
       "Course No": "SUP-921",
       "Title": "Proseminar on Inequality and Social Policy I",
       "Section": null,
       "Credits": "4.00",
       "Term": "Fall",
       "Faculty": "David Deming, Lawrence Bobo",
-      "Class Day": null,
-      "Class Time": null,
-      "Review Day": null,
-      "Review Room": null,
-      "Review Time": null
-    },
-    {
-      "Course ID": "SUP-922--Spring",
-      "Course No": "SUP-922",
-      "Title": "Proseminar on Inequality and Social Policy II",
-      "Section": null,
-      "Credits": "4.00",
-      "Term": "Spring",
-      "Faculty": "Theda Skocpol, Alex Course IDssar",
       "Class Day": "W",
       "Class Time": "2:00 PM-4:00 PM",
       "Review Day": null,
@@ -4243,7 +4313,21 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "SUP-923--Fall",
+      "Course ID": "SUP-922-Spring-",
+      "Course No": "SUP-922",
+      "Title": "Proseminar on Inequality and Social Policy II",
+      "Section": null,
+      "Credits": "4.00",
+      "Term": "Spring",
+      "Faculty": "Theda Skocpol, Alex Keyssar",
+      "Class Day": "W",
+      "Class Time": "2:00 PM-4:00 PM",
+      "Review Day": null,
+      "Review Room": null,
+      "Review Time": null
+    },
+    {
+      "Course ID": "SUP-923-Fall-",
       "Course No": "SUP-923",
       "Title": "Proseminar on Inequality and Social Policy III",
       "Section": null,
@@ -4257,7 +4341,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "SUP-951--Spring",
+      "Course ID": "SUP-951-Spring-",
       "Course No": "SUP-951",
       "Title": "Doctoral Seminar in Health Economics",
       "Section": null,
@@ -4271,7 +4355,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "SUP-957--Fall",
+      "Course ID": "SUP-957-Fall-",
       "Course No": "SUP-957",
       "Title": "Core Course in Health Policy I",
       "Section": null,
@@ -4285,7 +4369,7 @@ var data = {
       "Review Time": null
     },
     {
-      "Course ID": "SUP-958--Spring",
+      "Course ID": "SUP-958-Spring-",
       "Course No": "SUP-958",
       "Title": "Core Course in Health Policy II",
       "Section": null,
