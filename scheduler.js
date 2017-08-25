@@ -138,7 +138,7 @@ $(function() {
   })
 
   // make 'remove' button just uncheck the box in the list
-  $(document).on('click touchstart', "a.js-remove-link",function(){
+  $(document).on('click', "a.js-remove-link",function(){
     $checkbox = $body.find("#" + $(this).data("course"))
 
     $checkbox.prop('checked', false).change()

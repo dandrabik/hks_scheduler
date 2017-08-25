@@ -4,7 +4,7 @@ body {
 .hide {
   display: none;
 }
-.js-remove-link:hover {
+.js-remove-link {
   cursor: pointer;
 }
 .scrollBox {
