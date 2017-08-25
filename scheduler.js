@@ -26,6 +26,10 @@ $(function() {
   const fallTwo = "FallTwo";
   const springOne = "SpringOne";
   const springTwo = "SpringTwo";
+  const quantCourseIDs = data.quantClassIDs;
+  const mldCourseIDs = data.mldClassIDs;
+  const politicalCourseIDs = data.politicalClassIDs;
+  const successClass = 'green'
 
   const termMapping = {
     [fallTerm]: fallTerm,
@@ -62,6 +66,9 @@ $(function() {
   const jsCreditCounter = $body.find("#js-credits");
   const jsCalendar = $body.find("#js-calendar");
   const $showSectionsCheckbox = $body.find("#js-show-sections");
+  const quantList = $body.find("#js-quant");
+  const mldList = $body.find("#js-mld");
+  const politicsList = $body.find("#js-politics");
 
   // add classes to the page.
   loadClasses();
@@ -102,6 +109,12 @@ $(function() {
               (<a class="js-remove-link" data-course="${course[courseID]}">Remove</a>)
             </li>`;
   }
+  function courseRequirementTemplate(course) {
+    return `<li class="${course[courseID]}">
+              ${course[courseNO]} -
+              ${course[courseCredits]} Credits
+            </li>`;
+  }
 
   function scheduleTemplate(course, color, review) {
     return `<div class="${color} ${course[courseID]} timeSlot time${course[review ? courseReviewTime : courseTime].replace(/(:|-|\s)/g, "")}">
@@ -140,7 +153,10 @@ $(function() {
 
     added ? addCourse(course) : removeCourse(course)
 
-    setCredits()
+    setCredits();
+    setRequirements(quantCourseIDs, quantList);
+    setRequirements(mldCourseIDs, mldList);
+    setRequirements(politicalCourseIDs, politicsList);
   })
 
   // make 'remove' button just uncheck the box in the list
@@ -181,6 +197,25 @@ $(function() {
     })
 
     jsCreditCounter.html(credits);
+    label = jsCreditCounter.parent();
+    credits >= 32 ? label.addClass(successClass) : label.removeClass(successClass)
+  }
+
+  function setRequirements(list, target) {
+    console.log(list);
+    console.log(target);
+    var credits = 0;
+    target.html("") // reset classes
+    myClasses
+      .filter(function(course) {return list.indexOf(course[courseNO]) !== -1})
+      .forEach(function(course){
+
+        credits += parseInt(course[courseCredits]);
+        target.append(courseRequirementTemplate(course));
+      })
+
+    const $label = target.parent().find(".js-req-header");
+    credits >= 4 ? $label.addClass(successClass) : $label.removeClass(successClass)
   }
 
   function addToList(course) {
