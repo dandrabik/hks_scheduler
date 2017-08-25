@@ -93,6 +93,7 @@ $(function() {
   function courseListTemplate(course) {
     return `<li class="${course[courseID]}">
               ${course[courseNO]} - ${course[courseTitle]} (${course[courseTime]})
+              <a class="js-remove-link" data-course="${course[courseID]}">X</a>
             </li>`;
   }
 
@@ -127,14 +128,18 @@ $(function() {
   $classCheckboxes.change(function(){
     const course = findClass(this.id)
     const added = this.checked === true
-    if (added) {
-      myClasses.splice(0,0,course);
-    } else{
-      myClasses.splice($.inArray(course, myClasses),1)
-    }
+
+    added ? addCourse(course) : removeCourse(course)
+
     setCredits()
-    $body.trigger(changed, [added, course])
   })
+
+  // make 'remove' button just uncheck the box in the list
+  $(document).on('click', "a.js-remove-link",function(){
+    $checkbox = $body.find("#" + $(this).data("course"))
+
+    $checkbox.prop('checked', false).change()
+  });
 
   $showSectionsCheckbox.change(function(){
     if (this.checked === true) {
@@ -153,16 +158,9 @@ $(function() {
     return classes.find(findByID, id);
   }
 
-  $body.on(changed, function(event, added, course){
-    if (!added) {
-      removeCourse(course);
-      return
-    }
-
-    addCourse(course);
-  })
-
   function removeCourse(course) {
+    myClasses.splice($.inArray(course, myClasses),1)
+
     const id = course[courseID];
     $("." + id).remove();
   }
@@ -177,6 +175,7 @@ $(function() {
   }
 
   function addCourse(course) {
+    myClasses.splice(0,0,course);
     const term = course[courseTerm];
     const days = course[courseDay] ? course[courseDay].split("/") : []
     const selector = termMapping[term]
