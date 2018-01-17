@@ -53,12 +53,23 @@ $(function() {
     [januaryTerm]: [januaryTerm]
   }
   // use an array to maintain order
-  const calendarSections = [
+  const fallCalendarOrder = [
     [fallOne, fallOneTerm],
     [fallTwo, fallTwoTerm],
     [springOne, springOneTerm],
     [springTwo, springTwoTerm]
   ]
+  const springCalendarOrder = [
+    fallCalendarOrder[2],
+    fallCalendarOrder[3],
+    fallCalendarOrder[0],
+    fallCalendarOrder[1]
+  ]
+
+  const monthDigit = new Date().getMonth()
+  const showFallFirst = (monthDigit <= 10 && monthDigit > 6)
+  const calendarSections = showFallFirst ? fallCalendarOrder : springCalendarOrder
+
   const colors = ["red", "red2", "blue", "blue2", "green", "green2", "purple", "purple2", "yellow", "yellow2", "orange", "orange2", "tan", "tan2"]
 
   const $courseList = $("#js-courses dl");
@@ -214,8 +225,6 @@ $(function() {
   }
 
   function setRequirements(list, target) {
-    console.log(list);
-    console.log(target);
     var credits = 0;
     target.html("") // reset classes
     myClasses
