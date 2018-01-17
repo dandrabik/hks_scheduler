@@ -104,7 +104,7 @@ $(function() {
 
   function courseTemplate(course) {
     const section = !(course[courseSection] === null || course[courseSection] === "B")
-    const fallClass = [fallTerm, fallOneTerm, fallTwoTerm].includes(course[courseTerm])
+    const fallClass = [fallTerm, fallOneTerm, fallTwoTerm, januaryTerm].includes(course[courseTerm])
     return `<dt class="${section ? "hide" : ""} ${section ? "js-section" : "" } ${fallClass ? fallClassLabel : ""}">
               <label>
               <input type="checkbox" id='${course[courseID]}'/>
