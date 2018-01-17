@@ -1,11 +1,15 @@
 body {
   color: #3a3d42;
 }
-.hide {
+.hide, .js-fall-hide {
   display: none;
 }
 .js-remove-link {
   cursor: pointer;
+}
+.pipe {
+  padding: 0 15px;
+  color: #ccc;
 }
 .scrollBox {
   height: 300px;

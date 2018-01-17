@@ -77,9 +77,12 @@ $(function() {
   const jsCreditCounter = $body.find("#js-credits");
   const jsCalendar = $body.find("#js-calendar");
   const $showSectionsCheckbox = $body.find("#js-show-sections");
+  const $showSpringCheckbox = $body.find("#js-show-springonly");
   const quantList = $body.find("#js-quant");
   const mldList = $body.find("#js-mld");
   const politicsList = $body.find("#js-politics");
+  const fallHide = "js-fall-hide"
+  const fallClassLabel = "js-fall-class"
 
   // add classes to the page.
   loadClasses();
@@ -101,7 +104,8 @@ $(function() {
 
   function courseTemplate(course) {
     const section = !(course[courseSection] === null || course[courseSection] === "B")
-    return `<dt class="${section ? "hide" : ""} ${section ? "js-section" : "" }">
+    const fallClass = [fallTerm, fallOneTerm, fallTwoTerm].includes(course[courseTerm])
+    return `<dt class="${section ? "hide" : ""} ${section ? "js-section" : "" } ${fallClass ? fallClassLabel : ""}">
               <label>
               <input type="checkbox" id='${course[courseID]}'/>
                 ${course[courseNO]}
@@ -194,6 +198,13 @@ $(function() {
       $("dt").removeClass("hide")
     } else {
       $("dt.js-section").addClass("hide")
+    }
+  })
+  $showSpringCheckbox.change(function(){
+    if (this.checked === true) {
+      $("dt." + fallClassLabel).addClass(fallHide)
+    } else {
+      $("dt").removeClass(fallHide)
     }
   })
 
