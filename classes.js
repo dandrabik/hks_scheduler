@@ -2582,7 +2582,7 @@ var data = {
     "Credits": "4.00",
     "Term": "January",
     "Faculty": "Brian Mandell",
-    "Class Day": "M/T/W/Th/F/S/Su$",
+    "Class Day": "M/T/W/Th/F/S/Su",
     "Class Time": "8:00 AM-11:00 PM"
   },
   {
